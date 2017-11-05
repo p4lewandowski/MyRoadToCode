@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-import RHM_LoggingIn
+from RHM_LogIn import connect
 import AuxiliaryFunctions
 
 
@@ -70,7 +70,7 @@ class LogInWindow(QWidget):
     def PassingCredentials(self):
         UserName = self.UsernameEdit.text()
         UserPassword = self.PasswordEdit.text()
-        RHM_LoggingIn.CallAuthentication(UserName, UserPassword)
+        connect(UserName, UserPassword)
 
     def closeEvent(self, event):
 
