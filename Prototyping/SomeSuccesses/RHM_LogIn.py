@@ -16,6 +16,12 @@ def connect(Username, Userpass):
 
         if conn.is_connected():
             print('connection established.')
+
+            cursor = conn.cursor()
+            cursor.execute("show global variables like '%ssl%'")
+
+            QueryResults(cursor)
+
         else:
             print('connection failed.')
 
@@ -26,6 +32,11 @@ def connect(Username, Userpass):
         conn.close()
         print('Connection closed.')
 
+def QueryResults(cursor):
+    DataFromQuery = cursor.fetchone()
+    while DataFromQuery is not None:
+        print(DataFromQuery)
+        DataFromQuery = cursor.fetchone()
 
 if __name__ == '__main__':
     connect()
