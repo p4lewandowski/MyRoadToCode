@@ -4,6 +4,7 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from RHM_LogIn import connect
 import AuxiliaryFunctions
+from RHM_LogIn_Class import MySQL_Connection
 
 
 class LogInWindow(QWidget):
@@ -16,7 +17,8 @@ class LogInWindow(QWidget):
 
         # Creating window and centering it
         #self.resize(500, 350)
-        self.setWindowTitle('Remote Health Monitoring System')
+        # Setting up icon and window title
+        self.setWindowTitle('Remote Health Monitoring System LogIn')
         self.setWindowIcon(QIcon('Cardiology.png'))
         AuxiliaryFunctions.center(self)
 
@@ -72,6 +74,8 @@ class LogInWindow(QWidget):
         UserName = self.UsernameEdit.text()
         UserPassword = self.PasswordEdit.text()
         connect(UserName, UserPassword)
+        #MySQL_LogIn = MySQL_Connection()
+
 
     def closeEvent(self, event):
 
