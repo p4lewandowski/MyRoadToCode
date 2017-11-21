@@ -1,6 +1,7 @@
 from mysql.connector import MySQLConnection, Error
 from ConfigFileParser import read_db_config
 from RunningMainWindow import RunMainWindow
+import time
 
 
 def connect(Username, Userpass):

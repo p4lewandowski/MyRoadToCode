@@ -2,10 +2,9 @@ import sys
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
-from RHM_LogIn import connect
+from RunningMainWindow import RunMainWindow
 import AuxiliaryFunctions
-from RHM_LogIn_Class import MySQL_Connection
-
+import time
 
 class LogInWindow(QWidget):
     def __init__(self):
@@ -66,16 +65,23 @@ class LogInWindow(QWidget):
         LogScreenLayout.addWidget(LogMeInButton,7, 7)
         LogScreenLayout.addWidget(ExitButton,10,7)
 
-
         self.setLayout(LogScreenLayout)
         self.show()
 
     def PassingCredentials(self):
-        UserName = self.UsernameEdit.text()
-        UserPassword = self.PasswordEdit.text()
-        connect(UserName, UserPassword)
-        #MySQL_LogIn = MySQL_Connection()
+        self.UserName = self.UsernameEdit.text()
+        self.UserPassword = self.PasswordEdit.text()
 
+        self.new_connection = RunMainWindow(self.UserName, self.UserPassword)
+
+        # try:
+        #     #self.destroy()
+        #     self.new_connection = SteadyConnection(self.UserName, self.UserPassword)
+        #
+        # except:
+        #     print ("Wrong Username or Password")
+        # finally:
+        #     sys.exit()
 
     def closeEvent(self, event):
 
