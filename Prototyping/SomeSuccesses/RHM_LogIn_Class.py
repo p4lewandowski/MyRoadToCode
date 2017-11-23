@@ -13,7 +13,7 @@ class MySQL_Connection():
         """ Connect to MySQL database """
         self.conn = None
 
-
+## connecton has to be open, check something with that
         print('Connecting to MySQL database...')
         self.conn = MySQLConnection(**self.db_config)
 
@@ -22,6 +22,7 @@ class MySQL_Connection():
 
         else:
             print('connection failed.')
+
 
 
     def query(self,command):
