@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="785732dd-3b4c-4713-b788-1ec2f783fa34" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FirstTry.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FirstTry1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FirstTry2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FirstTry4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FirstyTry3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GUI_Layout_Tutorial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OOP_1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OOP_2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OOP_3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/OOP_4Exception.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/AuxiliaryFunctions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/Cardiology.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/ConfigFileParser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/ConnectionConfig.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/LoadingWindow.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/Prototyping.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/RHM_Framework.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/RHM_LogIn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/RHM_LoggingIn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/RHM_Logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/RHM_LogoR.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/ApplicationWindow.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/ApplicationWindow.ui" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/AuxiliaryFunctions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/Cardiology.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/CompleteConnection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/ConfigFileParser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/ConnectingUsingQtSQL.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/ConnectionConfig.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/MainPanel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/MainPanel.ui" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/RHM_LogIn.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/RHM_LogIn_Class.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/RHM_LogoR.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/RHM_MainFrame.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/RunningMainWindow.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/SomeTries.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/SomeSuccesses/Welcome_Window_GridLayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/Welcome_Window.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/Welcome_Window_GridLayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/Welcome_Window_GridLayout_usingLambda.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Prototyping/splash_loading.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="785732dd-3b4c-4713-b788-1ec2f783fa34" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -219,7 +175,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/KidneySegmentation" />
   </component>
   <component name="RecentsManager">
@@ -357,16 +313,23 @@
       <option name="presentableId" value="Default" />
       <updated>1509743870646</updated>
     </task>
+    <task id="LOCAL-00001" summary="Organized folders">
+      <created>1511787100987</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511787100987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2093628" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24074075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24074075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -385,6 +348,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Organized folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organized folders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
