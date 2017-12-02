@@ -13,6 +13,7 @@ class ApplicationForm(object):
         main_app_window.setObjectName("main_app_window")
         main_app_window.setWindowModality(QtCore.Qt.NonModal)
         main_app_window.resize(868, 652)
+        main_app_window.setCentralWidget
         self.centralwidget = QtWidgets.QWidget(main_app_window)
         self.centralwidget.setObjectName("centralwidget")
         self.tab_widget = QtWidgets.QTabWidget(self.centralwidget)
