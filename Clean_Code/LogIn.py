@@ -4,7 +4,6 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from Application import MainWindow
 import AuxiliaryFunctions
-import time
 
 class LogInWindow(QWidget):
     def __init__(self):
@@ -72,15 +71,6 @@ class LogInWindow(QWidget):
         self.username_cred = self.username_edit.text()
         self.userpass_cred = self.password_edit.text()
         self.new_connection = MainWindow(self.username_cred, self.userpass_cred)
-
-        # try:
-        #     #self.destroy()
-        #     self.new_connection = SteadyConnection(self.UserName, self.UserPassword)
-        #
-        # except:
-        #     print ("Wrong Username or Password")
-        # finally:
-        #     sys.exit()
 
     def closeEvent(self, event):
 
