@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="785732dd-3b4c-4713-b788-1ec2f783fa34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Clean_Code/mysql_connector.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Clean_Code/sql_find_patient.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Clean_Code/sql_show_all.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/Application.py" afterPath="$PROJECT_DIR$/Clean_Code/Application.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py" afterPath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.ui" afterPath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini" afterPath="$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/LogIn.py" afterPath="$PROJECT_DIR$/Clean_Code/LogIn.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LogIn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clean_Code/LogIn.py">
+      <file leaf-file-name="Application.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Clean_Code/Application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+            <state relative-caret-position="198">
+              <caret line="101" column="59" lean-forward="true" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -30,14 +30,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Clean_Code/Application.py">
+      <file leaf-file-name="sql_find_patient.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clean_Code/sql_find_patient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="232">
+              <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,57 +44,7 @@
         <entry file="file://$PROJECT_DIR$/Clean_Code/sql_show_all.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql_connector.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clean_Code/mysql_connector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationWindow2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4366">
-              <caret line="274" column="77" lean-forward="true" selection-start-line="274" selection-start-column="77" selection-end-line="274" selection-end-column="77" />
-              <caret line="273" column="57" lean-forward="true" selection-start-line="273" selection-start-column="57" selection-end-line="273" selection-end-column="57" />
-              <caret line="272" column="62" lean-forward="true" selection-start-line="272" selection-start-column="62" selection-end-line="272" selection-end-column="62" />
-              <caret line="271" column="40" lean-forward="true" selection-start-line="271" selection-start-column="40" selection-end-line="271" selection-end-column="40" />
-              <caret line="270" column="26" lean-forward="true" selection-start-line="270" selection-start-column="26" selection-end-line="270" selection-end-column="26" />
-              <caret line="269" column="26" lean-forward="true" selection-start-line="269" selection-start-column="26" selection-end-line="269" selection-end-column="26" />
-              <caret line="268" column="28" lean-forward="true" selection-start-line="268" selection-start-column="28" selection-end-line="268" selection-end-column="28" />
-              <caret line="267" column="52" lean-forward="true" selection-start-line="267" selection-start-column="52" selection-end-line="267" selection-end-column="52" />
-              <caret line="266" column="89" lean-forward="true" selection-start-line="266" selection-start-column="89" selection-end-line="266" selection-end-column="89" />
-              <caret line="265" column="40" lean-forward="true" selection-start-line="265" selection-start-column="40" selection-end-line="265" selection-end-column="40" />
-              <caret line="264" column="42" lean-forward="true" selection-start-line="264" selection-start-column="42" selection-end-line="264" selection-end-column="42" />
-              <caret line="263" column="108" lean-forward="true" selection-start-line="263" selection-start-column="108" selection-end-line="263" selection-end-column="108" />
-              <caret line="262" column="70" lean-forward="true" selection-start-line="262" selection-start-column="70" selection-end-line="262" selection-end-column="70" />
-              <caret line="261" column="74" lean-forward="true" selection-start-line="261" selection-start-column="74" selection-end-line="261" selection-end-column="74" />
-              <caret line="260" column="35" lean-forward="true" selection-start-line="260" selection-start-column="35" selection-end-line="260" selection-end-column="35" />
-              <caret line="259" column="35" lean-forward="true" selection-start-line="259" selection-start-column="35" selection-end-line="259" selection-end-column="35" />
-              <folding>
-                <marker date="1512220230630" expanded="true" signature="323:3198" ph="..." />
-                <marker date="1512220230630" expanded="true" signature="36122:36521" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SomeTries.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clean_Code/SomeTries.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -105,8 +53,8 @@
       <file leaf-file-name="ConnectionConfig.ini" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -123,14 +71,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>args</find>
-      <find>exe</find>
-      <find>pre</find>
-      <find>exec</find>
-      <find>qtable</find>
-      <find>ssl</find>
-      <find>card</find>
-      <find>db</find>
       <find>clie</find>
       <find>connec</find>
       <find>call</find>
@@ -145,7 +85,6 @@
       <find>findpatient_show</find>
       <find>show</find>
       <find>patient_ta</find>
-      <find>patient_table</find>
       <find>enable_a_</find>
       <find>tak</find>
       <find>retur</find>
@@ -153,6 +92,15 @@
       <find>mysql_conn</find>
       <find>querymode</find>
       <find>show_all</find>
+      <find>patientta</find>
+      <find>remote</find>
+      <find>qapp</find>
+      <find>userna</find>
+      <find>entere</find>
+      <find>window</find>
+      <find>tablemod</find>
+      <find>patient_table</find>
+      <find>qsqlquer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,8 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/OOP_1.py" />
-        <option value="$PROJECT_DIR$/OOP_2.py" />
         <option value="$PROJECT_DIR$/FirstTry.py" />
         <option value="$PROJECT_DIR$/OOP_3.py" />
         <option value="$PROJECT_DIR$/OOP_4Exception.py" />
@@ -201,15 +147,18 @@
         <option value="$PROJECT_DIR$/Prototyping/Connection_GUI/ConnectionConfig.ini" />
         <option value="$PROJECT_DIR$/Prototyping/Connection_GUI/Application.py" />
         <option value="$PROJECT_DIR$/Clean_Code/ApplicationWindow.py" />
-        <option value="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py" />
-        <option value="$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini" />
         <option value="$PROJECT_DIR$/Clean_Code/SomeTries.py" />
         <option value="$PROJECT_DIR$/Clean_Code/call_find_patient.py" />
         <option value="$PROJECT_DIR$/Clean_Code/show_all_patients.py" />
-        <option value="$PROJECT_DIR$/Clean_Code/sql_show_all.py" />
-        <option value="$PROJECT_DIR$/Clean_Code/sql_find_patient.py" />
-        <option value="$PROJECT_DIR$/Clean_Code/LogIn.py" />
         <option value="$PROJECT_DIR$/Clean_Code/mysql_connector.py" />
+        <option value="$PROJECT_DIR$/Clean_Code/LogIn.py" />
+        <option value="$PROJECT_DIR$/Clean_Code/sql_find_patient.py" />
+        <option value="$PROJECT_DIR$/../../GitHub/KidneySegmentation/Segmentation_Loading.py" />
+        <option value="$PROJECT_DIR$/../../GitHub/KidneySegmentation/auxiliary_functions.py" />
+        <option value="$PROJECT_DIR$/../../GitHub/KidneySegmentation/main.py" />
+        <option value="$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini" />
+        <option value="$PROJECT_DIR$/Clean_Code/sql_show_all.py" />
+        <option value="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py" />
         <option value="$PROJECT_DIR$/Clean_Code/Application.py" />
       </list>
     </option>
@@ -238,8 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,10 +203,17 @@
               <item name="Bachelor_code" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="Bachelor_code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.4.4 (C:\Python34\python.exe) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,23 +255,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Bachelor_code" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Clean_Code/Application.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Application" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prototyping/Connection_GUI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Bachelor_code" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prototyping/Connection_GUI/Application.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -373,20 +310,37 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../GitHub/KidneySegmentation" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Bachelor_code" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../GitHub/KidneySegmentation/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Application" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Application (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.LogIn (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.SomeTries (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ApplicationWindow2" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Application (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.LogIn (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SomeTries (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.ApplicationWindow2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.Application (1)" />
         <item index="1" class="java.lang.String" itemvalue="Python.LogIn (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SomeTries (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ApplicationWindow2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Application" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main" />
+        <item index="3" class="java.lang.String" itemvalue="Python.SomeTries (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ApplicationWindow2" />
       </list>
     </recent_temporary>
   </component>
@@ -413,9 +367,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2093628" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2093628" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24074075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -449,9 +402,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FirstTry.py" />
-    <entry file="file://$PROJECT_DIR$/FirstTry2.py" />
-    <entry file="file://$PROJECT_DIR$/FirstyTry3.py" />
     <entry file="file://$PROJECT_DIR$/FirstTry4.py" />
     <entry file="file://$PROJECT_DIR$/Prototyping/Welcome_Window.py" />
     <entry file="file://$PROJECT_DIR$/FirstTry1.py" />
@@ -528,88 +478,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clean_Code/sql_find_patient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Clean_Code/SomeTries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4366">
-          <caret line="274" column="77" lean-forward="true" selection-start-line="274" selection-start-column="77" selection-end-line="274" selection-end-column="77" />
-          <caret line="273" column="57" lean-forward="true" selection-start-line="273" selection-start-column="57" selection-end-line="273" selection-end-column="57" />
-          <caret line="272" column="62" lean-forward="true" selection-start-line="272" selection-start-column="62" selection-end-line="272" selection-end-column="62" />
-          <caret line="271" column="40" lean-forward="true" selection-start-line="271" selection-start-column="40" selection-end-line="271" selection-end-column="40" />
-          <caret line="270" column="26" lean-forward="true" selection-start-line="270" selection-start-column="26" selection-end-line="270" selection-end-column="26" />
-          <caret line="269" column="26" lean-forward="true" selection-start-line="269" selection-start-column="26" selection-end-line="269" selection-end-column="26" />
-          <caret line="268" column="28" lean-forward="true" selection-start-line="268" selection-start-column="28" selection-end-line="268" selection-end-column="28" />
-          <caret line="267" column="52" lean-forward="true" selection-start-line="267" selection-start-column="52" selection-end-line="267" selection-end-column="52" />
-          <caret line="266" column="89" lean-forward="true" selection-start-line="266" selection-start-column="89" selection-end-line="266" selection-end-column="89" />
-          <caret line="265" column="40" lean-forward="true" selection-start-line="265" selection-start-column="40" selection-end-line="265" selection-end-column="40" />
-          <caret line="264" column="42" lean-forward="true" selection-start-line="264" selection-start-column="42" selection-end-line="264" selection-end-column="42" />
-          <caret line="263" column="108" lean-forward="true" selection-start-line="263" selection-start-column="108" selection-end-line="263" selection-end-column="108" />
-          <caret line="262" column="70" lean-forward="true" selection-start-line="262" selection-start-column="70" selection-end-line="262" selection-end-column="70" />
-          <caret line="261" column="74" lean-forward="true" selection-start-line="261" selection-start-column="74" selection-end-line="261" selection-end-column="74" />
-          <caret line="260" column="35" lean-forward="true" selection-start-line="260" selection-start-column="35" selection-end-line="260" selection-end-column="35" />
-          <caret line="259" column="35" lean-forward="true" selection-start-line="259" selection-start-column="35" selection-end-line="259" selection-end-column="35" />
-          <folding>
-            <marker date="1512220230630" expanded="true" signature="323:3198" ph="..." />
-            <marker date="1512220230630" expanded="true" signature="36122:36521" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Clean_Code/mysql_connector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../GitHub/KidneySegmentation/Segmentation_Loading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../GitHub/KidneySegmentation/auxiliary_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="44" column="72" lean-forward="true" selection-start-line="44" selection-start-column="72" selection-end-line="44" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../GitHub/KidneySegmentation/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Clean_Code/LogIn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+        <state relative-caret-position="-14">
+          <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Clean_Code/sql_show_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="320" column="71" lean-forward="true" selection-start-line="320" selection-start-column="71" selection-end-line="320" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clean_Code/sql_find_patient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Clean_Code/Application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="101" column="59" lean-forward="true" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

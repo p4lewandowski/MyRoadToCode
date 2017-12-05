@@ -16,9 +16,11 @@ class LogInWindow(QWidget):
         # Creating window and centering it
         #self.resize(500, 350)
         # Setting up icon and window title
-        self.setWindowTitle('Remote Health Monitoring System LogIn')
+        self.setWindowTitle('Log in to Remote Health Monitoring System')
         self.setWindowIcon(QIcon('Cardiology.png'))
         AuxiliaryFunctions.center(self)
+        # self.setWindowModality(Qt.ApplicationModal)
+
 
         # Specyfying the font for WelcomeLabel
         welcome_font = QFont()
@@ -71,6 +73,7 @@ class LogInWindow(QWidget):
         self.username_cred = self.username_edit.text()
         self.userpass_cred = self.password_edit.text()
         self.new_connection = MainWindow(self.username_cred, self.userpass_cred)
+        print(self.username_cred, self.userpass_cred)
 
     def closeEvent(self, event):
 
