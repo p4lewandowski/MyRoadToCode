@@ -1,4 +1,5 @@
 import sys
+import numpy as np
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow
 from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtSql import *
@@ -76,8 +77,44 @@ class MainWindow(QMainWindow, Ui_main_app_window,sql_show_all,mysql_connector,sq
         # Query examination reset
         self.examination_search_reset_button.clicked.connect(self.query_examination_reset)
 
+        # Add query criteria and create an array to store it
+        self.examination_add_criteria_button.clicked.connect(self.examination_add_criteria)
+        self.prepared_criteria = []
+        self.criteria_index = 0
+
+        # Delete one of the criteria
+        #self.delete_criteria_button_1.clicked.connect(self.examination_criteria_removal)
+
         # Show the gui layout
         self.show()
+
+
+    def examination_criteria_removal(self):
+        for i in range(1,7):
+            criteria_label_name = 'ex_label_' + str(i)
+            getattr(self, criteria_label_name).setText('Empty')
+            # jeszcze trzeba dodać reset wszystkich labeli, trzeba?
+
+
+    def examination_add_criteria(self):
+        entered_parameter_col_1 = self.parameter_cb_1.currentText()
+        entered_operator_1 = self.operator_cb_1.currentText()
+        entered_parameter_val_1 = self.parameter_le_1.text()
+        self.criteria_index += 1
+
+        divider = ' '
+        criteria_label_lext = (str(self.criteria_index), entered_parameter_col_1,entered_operator_1, entered_parameter_val_1)
+        criteria_label_lext = divider.join(criteria_label_lext)
+
+        criteria_parameters = [entered_parameter_col_1,entered_operator_1, entered_parameter_val_1]
+        self.prepared_criteria.append(criteria_parameters)
+        criteria_label_name = 'ex_label_' + str(self.criteria_index)
+
+        # Assign consecutive label names indicating criteria used
+        getattr(self, criteria_label_name).setText(criteria_label_lext)
+
+
+
 
     def query_examination_reset(self):
         self.examinationtable_tablemodel.select()
@@ -86,10 +123,25 @@ class MainWindow(QMainWindow, Ui_main_app_window,sql_show_all,mysql_connector,sq
         examination_reset_query = QSqlQuery();
         examination_reset_query.exec_("call Examination_reset");
 
+        # Reset the criteria index count
+        self.criteria_index = 0
+
+        # Reset the criteria lebels
+        for i in range(1,7):
+            criteria_label_name = 'ex_label_' + str(i)
+            getattr(self, criteria_label_name).setText('Empty')
+            # jeszcze trzeba dodać reset wszystkich labeli, trzeba?
+
+        # Empty the criteria with its paremeters
+        self.prepared_criteria = []
+
+
+
     def query_examination(self):
         entered_parameter_col_1 = self.parameter_cb_1.currentText()
         entered_operator_1 = self.operator_cb_1.currentText()
         entered_parameter_val_1 = self.parameter_le_1.text()
+        print(type(entered_parameter_col_1), type(entered_operator_1), type(entered_parameter_val_1) )
 
         exam_args = [entered_parameter_col_1, entered_operator_1, entered_parameter_val_1]
         # if entered_parameter1_operator == '>':
@@ -110,9 +162,19 @@ class MainWindow(QMainWindow, Ui_main_app_window,sql_show_all,mysql_connector,sq
         print(exam_args)
 
         # Examination_str
-        self.queryexamination_querymodel.setQuery("call Examination_int('{}', '{}', '{}')".format(*exam_args))
-        self.examination_table.setModel(self.queryexamination_querymodel)
-        self.examination_table.resizeColumnsToContents()
+        for i in self.prepared_criteria:
+
+            if (i[0] == 'Name' or i[0] == 'Surname' or i[0] == 'Examination Date' or i[0] == 'Parameter Warning'):
+
+                self.queryexamination_querymodel.setQuery("call Examination_str('{}', '{}')".format(i[0], i[2]))
+                self.examination_table.setModel(self.queryexamination_querymodel)
+                self.examination_table.resizeColumnsToContents()
+
+            else:
+
+                self.queryexamination_querymodel.setQuery("call Examination_int('{}', '{}', '{}')".format(*i))
+                self.examination_table.setModel(self.queryexamination_querymodel)
+                self.examination_table.resizeColumnsToContents()
 
         # Examination_reset
 

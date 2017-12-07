@@ -6,8 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/Application.py" afterPath="$PROJECT_DIR$/Clean_Code/Application.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py" afterPath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.ui" afterPath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini" afterPath="$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/LogIn.py" afterPath="$PROJECT_DIR$/Clean_Code/LogIn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/SomeTries.py" afterPath="$PROJECT_DIR$/Clean_Code/SomeTries.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="Application.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Clean_Code/Application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="101" column="59" lean-forward="true" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
+            <state relative-caret-position="290">
+              <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -30,10 +29,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SomeTries.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clean_Code/SomeTries.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="sql_find_patient.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Clean_Code/sql_find_patient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="408">
               <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="40" />
               <folding />
             </state>
@@ -44,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/Clean_Code/sql_show_all.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -71,8 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>clie</find>
-      <find>connec</find>
       <find>call</find>
       <find>Null</find>
       <find>main</find>
@@ -100,7 +107,9 @@
       <find>window</find>
       <find>tablemod</find>
       <find>patient_table</find>
+      <find>ex_label_1</find>
       <find>qsqlquer</find>
+      <find>_add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,7 +156,6 @@
         <option value="$PROJECT_DIR$/Prototyping/Connection_GUI/ConnectionConfig.ini" />
         <option value="$PROJECT_DIR$/Prototyping/Connection_GUI/Application.py" />
         <option value="$PROJECT_DIR$/Clean_Code/ApplicationWindow.py" />
-        <option value="$PROJECT_DIR$/Clean_Code/SomeTries.py" />
         <option value="$PROJECT_DIR$/Clean_Code/call_find_patient.py" />
         <option value="$PROJECT_DIR$/Clean_Code/show_all_patients.py" />
         <option value="$PROJECT_DIR$/Clean_Code/mysql_connector.py" />
@@ -159,6 +167,7 @@
         <option value="$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini" />
         <option value="$PROJECT_DIR$/Clean_Code/sql_show_all.py" />
         <option value="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py" />
+        <option value="$PROJECT_DIR$/Clean_Code/SomeTries.py" />
         <option value="$PROJECT_DIR$/Clean_Code/Application.py" />
       </list>
     </option>
@@ -337,9 +346,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.Application (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.LogIn (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main" />
-        <item index="3" class="java.lang.String" itemvalue="Python.SomeTries (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SomeTries (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.LogIn (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main" />
         <item index="4" class="java.lang.String" itemvalue="Python.ApplicationWindow2" />
       </list>
     </recent_temporary>
@@ -367,17 +376,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2093628" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2093628" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24074075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24074075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27037036" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27037036" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -478,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clean_Code/SomeTries.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Clean_Code/mysql_connector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -517,9 +520,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
           <caret line="43" column="51" lean-forward="true" selection-start-line="43" selection-start-column="51" selection-end-line="43" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#10#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-669">
+          <caret line="822" column="73" lean-forward="true" selection-start-line="822" selection-start-column="73" selection-end-line="822" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -534,31 +541,31 @@
     <entry file="file://$PROJECT_DIR$/Clean_Code/sql_show_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="320" column="71" lean-forward="true" selection-start-line="320" selection-start-column="71" selection-end-line="320" selection-end-column="71" />
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Clean_Code/sql_find_patient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="408">
           <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clean_Code/SomeTries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Clean_Code/Application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="101" column="59" lean-forward="true" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
+        <state relative-caret-position="290">
+          <caret line="85" column="9" lean-forward="false" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
