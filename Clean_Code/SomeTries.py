@@ -19,8 +19,15 @@ def add_one_more():
         print (i[1])
         #print(i)
 
-add_one_more()
-b = [['Diastolic Pressure', '>', '100'], ['Diastolic Pressure', '<', '110']]
+#add_one_more()
+#b = [['Diastolic Pressure', '>', '100'], ['Diastolic Pressure', '<', '110']]
 #print (*b[1])
+a = dict()
+a[1] = 'dsad'
+a[2] ='aaa'
+a[3] = 'bbb'
+print(a)
+del a[2]
+print (a)
 
 

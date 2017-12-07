@@ -78,42 +78,102 @@ class MainWindow(QMainWindow, Ui_main_app_window,sql_show_all,mysql_connector,sq
         self.examination_search_reset_button.clicked.connect(self.query_examination_reset)
 
         # Add query criteria and create an array to store it
+        # Prepare dictionary for possible criteria labels
+        self.criteria_labels = dict()
+        # Prepare dictionary for possible criteria names
+        self.criteria_names = dict()
+
+
         self.examination_add_criteria_button.clicked.connect(self.examination_add_criteria)
         self.prepared_criteria = []
-        self.criteria_index = 0
+        self.criteria_index = 1
 
         # Delete one of the criteria
-        #self.delete_criteria_button_1.clicked.connect(self.examination_criteria_removal)
+        self.examination_remove_criteria_button.clicked.connect(self.examination_criteria_removal)
 
         # Show the gui layout
         self.show()
 
 
-    def examination_criteria_removal(self):
-        for i in range(1,7):
-            criteria_label_name = 'ex_label_' + str(i)
-            getattr(self, criteria_label_name).setText('Empty')
-            # jeszcze trzeba dodać reset wszystkich labeli, trzeba?
-
-
     def examination_add_criteria(self):
-        entered_parameter_col_1 = self.parameter_cb_1.currentText()
-        entered_operator_1 = self.operator_cb_1.currentText()
-        entered_parameter_val_1 = self.parameter_le_1.text()
-        self.criteria_index += 1
+        entered_parameter_col = self.parameter_cb.currentText()
+        entered_operator = self.operator_cb.currentText()
+        entered_parameter_val = self.parameter_le.text()
 
         divider = ' '
-        criteria_label_lext = (str(self.criteria_index), entered_parameter_col_1,entered_operator_1, entered_parameter_val_1)
-        criteria_label_lext = divider.join(criteria_label_lext)
+        criteria_label_text = (str(self.criteria_index), entered_parameter_col,entered_operator, entered_parameter_val)
+        criteria_label_text = divider.join(criteria_label_text)
+        #self.criteria_names[self.criteria_index] = criteria_label_text
 
-        criteria_parameters = [entered_parameter_col_1,entered_operator_1, entered_parameter_val_1]
+        criteria_parameters = [entered_parameter_col,entered_operator, entered_parameter_val]
         self.prepared_criteria.append(criteria_parameters)
-        criteria_label_name = 'ex_label_' + str(self.criteria_index)
+        #criteria_label_name = 'ex_label_' + str(self.criteria_index)
 
         # Assign consecutive label names indicating criteria used
-        getattr(self, criteria_label_name).setText(criteria_label_lext)
+        #getattr(self, criteria_label_name).setText(criteria_label_text)
+
+        name = 'examination_criteria_label_{}'.format(self.criteria_index)
+        label = QLabel(self.criteria_container_groupbox)
+        label.setObjectName(name)
+        label.setText(criteria_label_text)
+        self.verticalLayout.addWidget(label)
+        self.criteria_labels[name] = label
+
+        self.criteria_index += 1
 
 
+    def examination_criteria_removal(self):
+
+        # The least problematic way to implement manual removing from GUI is to prepare whole table and labels
+        # as well as the query again
+
+        print (self.criteria_index, self.prepared_criteria, self.criteria_labels)
+
+        # Preparing the temporary table again
+        examination_reset_query = QSqlQuery();
+        examination_reset_query.exec_("call Examination_reset")
+
+        # Delete  the criteria labels
+        for i in range(1, self.criteria_index):
+            self.criteria_labels['examination_criteria_label_{}'.format(i)].deleteLater()
+
+        # Reset the criteria index count
+        self.criteria_index = 1
+
+        criteria_removed_index = int(self.criteria_removal_le.text())
+        #self.criteria_labels['examination_criteria_label_{}'.format(criteria_removed_index)].deleteLater()
+        self.criteria_labels = dict()
+        del self.prepared_criteria[criteria_removed_index - 1]  # Deleting one as array is indexed from 0, not 1
+
+        divider = ' '
+
+        for k in range (1, self.prepared_criteria):
+
+            criteria_label_text = (str(self.criteria_index), self.prepared_criteria[k,1], self.prepared_criteria[k,2], self.prepared_criteria[k, 3])
+            criteria_label_text = divider.join(criteria_label_text)
+
+            label = QLabel(self.criteria_container_groupbox)
+            name = 'examination_criteria_label_{}'.format(self.criteria_index)
+            label.setObjectName(name)
+            label.setText(criteria_label_text)
+            self.verticalLayout.addWidget(label)
+            self.criteria_labels[name] = label
+
+            self.criteria_index += 1
+
+
+        name = 'examination_criteria_label_{}'.format(self.criteria_index)
+        label = QLabel(self.criteria_container_groupbox)
+        label.setObjectName(name)
+        label.setText(criteria_label_text)
+        self.verticalLayout.addWidget(label)
+        self.criteria_labels[name] = label
+
+        print (self.criteria_index, self.prepared_criteria, self.criteria_labels)
+
+
+        # The specified query with the rest of criteria have to be run again
+        self.query_examination()
 
 
     def query_examination_reset(self):
@@ -121,47 +181,21 @@ class MainWindow(QMainWindow, Ui_main_app_window,sql_show_all,mysql_connector,sq
         self.examination_table.setModel(self.examinationtable_tablemodel)
         self.examination_table.resizeColumnsToContents()
         examination_reset_query = QSqlQuery();
-        examination_reset_query.exec_("call Examination_reset");
+        examination_reset_query.exec_("call Examination_reset")
+
+        # Reset the criteria labels
+        for i in range(1, self.criteria_index):
+            self.criteria_labels['examination_criteria_label_{}'.format(i)].deleteLater()
+
 
         # Reset the criteria index count
-        self.criteria_index = 0
-
-        # Reset the criteria lebels
-        for i in range(1,7):
-            criteria_label_name = 'ex_label_' + str(i)
-            getattr(self, criteria_label_name).setText('Empty')
-            # jeszcze trzeba dodać reset wszystkich labeli, trzeba?
+        self.criteria_index = 1
 
         # Empty the criteria with its paremeters
         self.prepared_criteria = []
 
-
-
     def query_examination(self):
-        entered_parameter_col_1 = self.parameter_cb_1.currentText()
-        entered_operator_1 = self.operator_cb_1.currentText()
-        entered_parameter_val_1 = self.parameter_le_1.text()
-        print(type(entered_parameter_col_1), type(entered_operator_1), type(entered_parameter_val_1) )
 
-        exam_args = [entered_parameter_col_1, entered_operator_1, entered_parameter_val_1]
-        # if entered_parameter1_operator == '>':
-        #     entered_parameter1_operator = '1'
-        # elif entered_parameter1_operator == '=':
-        #     entered_parameter1_operator = '0'
-        # else:
-        #     entered_parameter1_operator = '-1'
-
-        # for index, values in enumerate(entered_parameter1_operator):
-        #     if entered_parameter1_operator[index] == '>':
-        #         entered_parameter1_operator[index] = '1'
-
-        # for index, values in enumerate(exam_args):
-        #     if not exam_args[index]:
-        #         exam_args[index] = 'Null'
-
-        print(exam_args)
-
-        # Examination_str
         for i in self.prepared_criteria:
 
             if (i[0] == 'Name' or i[0] == 'Surname' or i[0] == 'Examination Date' or i[0] == 'Parameter Warning'):
@@ -175,10 +209,6 @@ class MainWindow(QMainWindow, Ui_main_app_window,sql_show_all,mysql_connector,sq
                 self.queryexamination_querymodel.setQuery("call Examination_int('{}', '{}', '{}')".format(*i))
                 self.examination_table.setModel(self.queryexamination_querymodel)
                 self.examination_table.resizeColumnsToContents()
-
-        # Examination_reset
-
-        # Examination_str
 
 
 if __name__ == '__main__':        # if we're running file directly and not importing it

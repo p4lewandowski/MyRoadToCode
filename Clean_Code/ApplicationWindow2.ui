@@ -645,1148 +645,277 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>352</width>
+             <width>348</width>
              <height>639</height>
             </rect>
            </property>
            <layout class="QGridLayout" name="gridLayout_2">
-            <item row="1" column="0">
-             <layout class="QGridLayout" name="gridLayout_6">
-              <item row="5" column="3">
-               <widget class="QLabel" name="label_4">
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>Value</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="1">
-               <widget class="QComboBox" name="parameter_cb_1">
-                <property name="maximumSize">
-                 <size>
-                  <width>150</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <item>
+            <item row="5" column="2">
+             <widget class="QPushButton" name="examination_search_button">
+              <property name="text">
+               <string>Search</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="3">
+             <widget class="QPushButton" name="examination_search_reset_button">
+              <property name="text">
+               <string>Show All</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="2" colspan="2">
+             <widget class="QGroupBox" name="modify_criteria_groupbox">
+              <property name="font">
+               <font>
+                <weight>50</weight>
+                <bold>false</bold>
+               </font>
+              </property>
+              <property name="title">
+               <string/>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_3">
+               <item row="2" column="1">
+                <widget class="QLabel" name="criteria_operator_label">
                  <property name="text">
-                  <string/>
+                  <string>Operator</string>
                  </property>
-                </item>
-                <item>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="criteria_parameter_label">
                  <property name="text">
-                  <string>Name</string>
+                  <string>Parameter</string>
                  </property>
-                </item>
-                <item>
+                </widget>
+               </item>
+               <item row="2" column="2">
+                <widget class="QLabel" name="criteria_parameter_label_2">
                  <property name="text">
-                  <string>Surname</string>
+                  <string>Parameter Value</string>
                  </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Examination Date</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Systolic Pressure</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Diastolic Pressure</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Heart Rate</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Patient Height</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Patient Weight</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>BMI</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Parameter Warning</string>
-                 </property>
-                </item>
-               </widget>
-              </item>
-              <item row="6" column="3">
-               <widget class="QLineEdit" name="parameter_le_1">
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="5" column="0">
-               <widget class="QLabel" name="enable_label">
-                <property name="maximumSize">
-                 <size>
-                  <width>30</width>
-                  <height>25</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="text">
-                 <string> Enable</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item row="2" column="0" colspan="4">
-               <widget class="QGroupBox" name="groupBox">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>300</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <weight>50</weight>
-                  <bold>false</bold>
-                 </font>
-                </property>
-                <property name="title">
-                 <string>Applied Criteria</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-                <layout class="QFormLayout" name="formLayout_2">
-                 <item row="0" column="1">
-                  <widget class="QPushButton" name="delete_criteria_button_1">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QComboBox" name="parameter_cb">
+                 <item>
+                  <property name="text">
+                   <string/>
+                  </property>
                  </item>
-                 <item row="0" column="0">
-                  <widget class="QLabel" name="ex_label_1">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>Name</string>
+                  </property>
                  </item>
-                 <item row="1" column="0">
-                  <widget class="QLabel" name="ex_label_2">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>Surname</string>
+                  </property>
                  </item>
-                 <item row="2" column="0">
-                  <widget class="QLabel" name="ex_label_3">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="frameShape">
-                    <enum>QFrame::StyledPanel</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <property name="lineWidth">
-                    <number>6</number>
-                   </property>
-                   <property name="midLineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>Examination Date</string>
+                  </property>
                  </item>
-                 <item row="3" column="0">
-                  <widget class="QLabel" name="ex_label_4">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>Systolic Pressure</string>
+                  </property>
                  </item>
-                 <item row="4" column="0">
-                  <widget class="QLabel" name="ex_label_5">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>Diastolic Pressure</string>
+                  </property>
                  </item>
-                 <item row="5" column="0">
-                  <widget class="QLabel" name="ex_label_6">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>Heart Rate</string>
+                  </property>
                  </item>
-                 <item row="6" column="0">
-                  <widget class="QLabel" name="ex_label_7">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>Patient Height</string>
+                  </property>
                  </item>
-                 <item row="7" column="0">
-                  <widget class="QLabel" name="ex_label_8">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>Patient Weight</string>
+                  </property>
                  </item>
-                 <item row="8" column="0">
-                  <widget class="QLabel" name="label_13">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>BMI</string>
+                  </property>
                  </item>
-                 <item row="9" column="0">
-                  <widget class="QLabel" name="label_14">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>Parameter Warning</string>
+                  </property>
                  </item>
-                 <item row="10" column="0">
-                  <widget class="QLabel" name="label_15">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                </widget>
+               </item>
+               <item row="3" column="1">
+                <widget class="QComboBox" name="operator_cb">
+                 <item>
+                  <property name="text">
+                   <string/>
+                  </property>
                  </item>
-                 <item row="11" column="0">
-                  <widget class="QLabel" name="label_16">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>&gt;</string>
+                  </property>
                  </item>
-                 <item row="12" column="0">
-                  <widget class="QLabel" name="label_17">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>&lt;</string>
+                  </property>
                  </item>
-                 <item row="13" column="0">
-                  <widget class="QLabel" name="label_18">
-                   <property name="minimumSize">
-                    <size>
-                     <width>200</width>
-                     <height>0</height>
-                    </size>
-                   </property>
-                   <property name="lineWidth">
-                    <number>3</number>
-                   </property>
-                   <property name="text">
-                    <string>TextLabel</string>
-                   </property>
-                   <property name="scaledContents">
-                    <bool>false</bool>
-                   </property>
-                   <property name="indent">
-                    <number>10</number>
-                   </property>
-                  </widget>
+                 <item>
+                  <property name="text">
+                   <string>+</string>
+                  </property>
                  </item>
-                 <item row="1" column="1">
-                  <widget class="QPushButton" name="delete_criteria_button_2">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="2" column="1">
-                  <widget class="QPushButton" name="delete_criteria_button_3">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="3" column="1">
-                  <widget class="QPushButton" name="delete_criteria_button_4">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="4" column="1">
-                  <widget class="QPushButton" name="delete_criteria_button_5">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="5" column="1">
-                  <widget class="QPushButton" name="delete_criteria_button_6">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="6" column="1">
-                  <widget class="QPushButton" name="delete_criteria_button_7">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="7" column="1">
-                  <widget class="QPushButton" name="pushButton_15">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="8" column="1">
-                  <widget class="QPushButton" name="pushButton_16">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="9" column="1">
-                  <widget class="QPushButton" name="pushButton_17">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="10" column="1">
-                  <widget class="QPushButton" name="pushButton_18">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="11" column="1">
-                  <widget class="QPushButton" name="pushButton_19">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="12" column="1">
-                  <widget class="QPushButton" name="pushButton_20">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="13" column="1">
-                  <widget class="QPushButton" name="pushButton_21">
-                   <property name="maximumSize">
-                    <size>
-                     <width>50</width>
-                     <height>16777215</height>
-                    </size>
-                   </property>
-                   <property name="text">
-                    <string>-</string>
-                   </property>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item row="8" column="0">
-               <widget class="QCheckBox" name="checkBox_4">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>25</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-               </widget>
-              </item>
-              <item row="10" column="0">
-               <widget class="QCheckBox" name="checkBox_5">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>25</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-               </widget>
-              </item>
-              <item row="10" column="2">
-               <widget class="QComboBox" name="operator_cb_4">
-                <property name="minimumSize">
-                 <size>
-                  <width>35</width>
-                  <height>0</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <item>
-                 <property name="text">
-                  <string/>
+                </widget>
+               </item>
+               <item row="3" column="2">
+                <widget class="QLineEdit" name="parameter_le"/>
+               </item>
+               <item row="4" column="0" colspan="3">
+                <widget class="QLabel" name="criteria_removal_label">
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
                  </property>
-                </item>
-                <item>
                  <property name="text">
-                  <string>&gt;</string>
+                  <string>Remove criteria - Write criteria index</string>
                  </property>
-                </item>
-                <item>
+                </widget>
+               </item>
+               <item row="1" column="0" colspan="3">
+                <widget class="QLabel" name="criteria_adding_label">
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
                  <property name="text">
-                  <string>&lt;</string>
+                  <string>Add criteria - Choose criteria options</string>
                  </property>
-                </item>
-                <item>
+                </widget>
+               </item>
+               <item row="3" column="3">
+                <widget class="QPushButton" name="examination_add_criteria_button">
                  <property name="text">
-                  <string>=</string>
+                  <string>Add</string>
                  </property>
-                </item>
-               </widget>
-              </item>
-              <item row="5" column="1">
-               <widget class="QLabel" name="label_3">
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>Parameter Name</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="2">
-               <widget class="QComboBox" name="operator_cb_1">
-                <property name="minimumSize">
-                 <size>
-                  <width>35</width>
-                  <height>0</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <item>
+                </widget>
+               </item>
+               <item row="5" column="2">
+                <widget class="QLineEdit" name="criteria_removal_le"/>
+               </item>
+               <item row="5" column="3">
+                <widget class="QPushButton" name="examination_remove_criteria_button">
                  <property name="text">
-                  <string/>
+                  <string>Remove</string>
                  </property>
-                </item>
-                <item>
+                </widget>
+               </item>
+               <item row="0" column="0" colspan="4">
+                <widget class="QLabel" name="criteria_modify_label">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
                  <property name="text">
-                  <string>&gt;</string>
+                  <string>Add or remove criteria</string>
                  </property>
-                </item>
-                <item>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item row="1" column="2" colspan="2">
+             <widget class="QLabel" name="label_2">
+              <property name="maximumSize">
+               <size>
+                <width>16777215</width>
+                <height>30</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="text">
+               <string>Patient Examination</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2" colspan="2">
+             <widget class="QGroupBox" name="criteria_container_groupbox">
+              <property name="title">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout">
+               <item>
+                <widget class="QLabel" name="criteria_box_label">
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>30</height>
+                  </size>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <pointsize>10</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
                  <property name="text">
-                  <string>&lt;</string>
+                  <string>Selected Criteria</string>
                  </property>
-                </item>
-                <item>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_7">
                  <property name="text">
-                  <string>=</string>
+                  <string>TextLabel</string>
                  </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Text Like</string>
-                 </property>
-                </item>
-               </widget>
-              </item>
-              <item row="0" column="0" colspan="4">
-               <widget class="QLabel" name="label_33">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <pointsize>11</pointsize>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <property name="text">
-                 <string>Apply Examination Criteria</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="0">
-               <widget class="QCheckBox" name="checkBox_2">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>25</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-               </widget>
-              </item>
-              <item row="11" column="2" colspan="2">
-               <widget class="QPushButton" name="examination_search_reset_button">
-                <property name="text">
-                 <string>Show All</string>
-                </property>
-               </widget>
-              </item>
-              <item row="7" column="2">
-               <widget class="QComboBox" name="operator_cb_2">
-                <property name="minimumSize">
-                 <size>
-                  <width>35</width>
-                  <height>0</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <item>
-                 <property name="text">
-                  <string/>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>&gt;</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>&lt;</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>=</string>
-                 </property>
-                </item>
-               </widget>
-              </item>
-              <item row="10" column="1">
-               <widget class="QComboBox" name="parameter_cb_4">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <item>
-                 <property name="text">
-                  <string/>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Name</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Surname</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Examination Date</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Systolic Pressure</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Diastolic Pressure</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Heart Rate</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Patient Height</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Patient Weight</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>BMI</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Parameter Warning</string>
-                 </property>
-                </item>
-               </widget>
-              </item>
-              <item row="8" column="2">
-               <widget class="QComboBox" name="operator_cb_3">
-                <property name="minimumSize">
-                 <size>
-                  <width>35</width>
-                  <height>0</height>
-                 </size>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <item>
-                 <property name="text">
-                  <string/>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>&gt;</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>&lt;</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>=</string>
-                 </property>
-                </item>
-               </widget>
-              </item>
-              <item row="8" column="3">
-               <widget class="QLineEdit" name="parameter_le_3">
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="4">
-               <widget class="QPushButton" name="examination_add_criteria_button">
-                <property name="maximumSize">
-                 <size>
-                  <width>25</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>+</string>
-                </property>
-               </widget>
-              </item>
-              <item row="8" column="1">
-               <widget class="QComboBox" name="parameter_cb_3">
-                <property name="maximumSize">
-                 <size>
-                  <width>200</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <item>
-                 <property name="text">
-                  <string/>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Name</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Surname</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Examination Date</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Systolic Pressure</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Diastolic Pressure</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Heart Rate</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Patient Height</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Patient Weight</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>BMI</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Parameter Warning</string>
-                 </property>
-                </item>
-               </widget>
-              </item>
-              <item row="7" column="0">
-               <widget class="QCheckBox" name="checkBox_3">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="maximumSize">
-                 <size>
-                  <width>25</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string/>
-                </property>
-               </widget>
-              </item>
-              <item row="11" column="1">
-               <widget class="QPushButton" name="examination_search_button">
-                <property name="text">
-                 <string>Search</string>
-                </property>
-               </widget>
-              </item>
-              <item row="10" column="3">
-               <widget class="QLineEdit" name="parameter_le_4">
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="7" column="1">
-               <widget class="QLineEdit" name="parameter_le_2">
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>REMOVE CRITERIA</string>
-                </property>
-               </widget>
-              </item>
-              <item row="7" column="3">
-               <widget class="QLineEdit" name="parameter_le_5">
-                <property name="maximumSize">
-                 <size>
-                  <width>100</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>index number</string>
-                </property>
-               </widget>
-              </item>
-              <item row="7" column="4">
-               <widget class="QPushButton" name="pushButton_22">
-                <property name="maximumSize">
-                 <size>
-                  <width>50</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>-</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
+                </widget>
+               </item>
+              </layout>
+             </widget>
             </item>
            </layout>
           </widget>
@@ -1823,9 +952,6 @@
   <tabstop>findpatient_search_button</tabstop>
   <tabstop>findpatient_showall_button</tabstop>
   <tabstop>findpatient_tab_widget</tabstop>
-  <tabstop>checkBox_2</tabstop>
-  <tabstop>operator_cb_1</tabstop>
-  <tabstop>parameter_le_1</tabstop>
   <tabstop>examination_table</tabstop>
   <tabstop>patient_table</tabstop>
  </tabstops>
