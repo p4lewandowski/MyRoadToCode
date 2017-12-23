@@ -6,7 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/Application.py" afterPath="$PROJECT_DIR$/Clean_Code/Application.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py" afterPath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.ui" afterPath="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/SomeTries.py" afterPath="$PROJECT_DIR$/Clean_Code/SomeTries.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini" afterPath="$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +20,8 @@
       <file leaf-file-name="Application.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Clean_Code/Application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="147" column="9" lean-forward="false" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -29,11 +29,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mysql_connector.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clean_Code/mysql_connector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ApplicationWindow2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="467" column="21" lean-forward="false" selection-start-line="467" selection-start-column="21" selection-end-line="467" selection-end-column="21" />
+            <state relative-caret-position="6018">
+              <caret line="354" column="40" lean-forward="false" selection-start-line="354" selection-start-column="40" selection-end-line="354" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionConfig.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,16 +64,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionConfig.ini" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,13 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>findpatient</find>
-      <find>button</find>
-      <find>findpatient_show</find>
-      <find>show</find>
-      <find>patient_ta</find>
-      <find>enable_a_</find>
-      <find>tak</find>
       <find>retur</find>
       <find>showall</find>
       <find>mysql_conn</find>
@@ -93,13 +96,20 @@
       <find>_add</find>
       <find>ex_label</find>
       <find>ex_label_1</find>
-      <find>show_all</find>
       <find>op</find>
       <find>label_2</find>
       <find>gridLayout_2</find>
       <find>operato</find>
-      <find>dict</find>
       <find>label_7</find>
+      <find>dict</find>
+      <find>self.examina</find>
+      <find>criteria_box_label</find>
+      <find>qtco</find>
+      <find>setFra</find>
+      <find>setf</find>
+      <find>tabledat</find>
+      <find>show_all</find>
+      <find>qtable</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,11 +164,11 @@
         <option value="$PROJECT_DIR$/../../GitHub/KidneySegmentation/Segmentation_Loading.py" />
         <option value="$PROJECT_DIR$/../../GitHub/KidneySegmentation/auxiliary_functions.py" />
         <option value="$PROJECT_DIR$/../../GitHub/KidneySegmentation/main.py" />
-        <option value="$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini" />
         <option value="$PROJECT_DIR$/Clean_Code/sql_show_all.py" />
-        <option value="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py" />
         <option value="$PROJECT_DIR$/Clean_Code/SomeTries.py" />
+        <option value="$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py" />
         <option value="$PROJECT_DIR$/Clean_Code/Application.py" />
+        <option value="$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini" />
       </list>
     </option>
   </component>
@@ -211,8 +221,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,12 +378,12 @@
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2093628" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2113134" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24074075" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24621212" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -478,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clean_Code/mysql_connector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../GitHub/KidneySegmentation/Segmentation_Loading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -513,19 +516,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Clean_Code/sql_show_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,7 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,18 +538,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Clean_Code/ConnectionConfig.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Clean_Code/ApplicationWindow2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="467" column="21" lean-forward="false" selection-start-line="467" selection-start-column="21" selection-end-line="467" selection-end-column="21" />
+        <state relative-caret-position="6018">
+          <caret line="354" column="40" lean-forward="false" selection-start-line="354" selection-start-column="40" selection-end-line="354" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clean_Code/mysql_connector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Clean_Code/Application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="150" column="0" lean-forward="true" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="147" column="9" lean-forward="false" selection-start-line="147" selection-start-column="9" selection-end-line="147" selection-end-column="9" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>

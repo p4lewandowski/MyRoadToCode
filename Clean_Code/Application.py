@@ -3,12 +3,15 @@ import numpy as np
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow
 from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtSql import *
+from PyQt5 import QtCore, QtWidgets
 from ApplicationWindow2 import Ui_main_app_window
 from sql_show_all import sql_show_all
 from mysql_connector import mysql_connector
 from sql_find_patient import sql_find_patient
+
 #from LogIn import LogInWindow
 import time
+import csv
 
 class MainWindow(QMainWindow, Ui_main_app_window,sql_show_all,mysql_connector,sql_find_patient):
     def __init__(self,username_cred, userpass_cred):
@@ -47,6 +50,12 @@ class MainWindow(QMainWindow, Ui_main_app_window,sql_show_all,mysql_connector,sq
         # Creating table model for patientexamination
         self.examinationtable_tablemodel = QSqlTableModel()
         self.examinationtable_tablemodel.setTable('patientexamination')
+        # Make it default to show the table
+        self.examinationtable_tablemodel.select()
+        self.examination_table.setModel(self.examinationtable_tablemodel)
+        self.examination_table.resizeColumnsToContents()
+
+
 
         # Creating query model for patientcredentials
         self.findpatient_querymodel = QSqlQueryModel()
@@ -54,9 +63,7 @@ class MainWindow(QMainWindow, Ui_main_app_window,sql_show_all,mysql_connector,sq
         # Creating query model for patientexaminastion
         self.queryexamination_querymodel = QSqlQueryModel()
 
-
-
-        # Calling different functions
+        ### Calling different functions
 
         # Find Patient
         self.findpatient_search_button.clicked.connect(self.call_find_patient)
@@ -80,22 +87,74 @@ class MainWindow(QMainWindow, Ui_main_app_window,sql_show_all,mysql_connector,sq
         # Add query criteria and create an array to store it
         # Prepare dictionary for possible criteria labels
         self.criteria_labels = dict()
-        # Prepare dictionary for possible criteria names
-        self.criteria_names = dict()
-
 
         self.examination_add_criteria_button.clicked.connect(self.examination_add_criteria)
         self.prepared_criteria = []
         self.criteria_index = 1
 
         # Delete one of the criteria
-        self.examination_remove_criteria_button.clicked.connect(self.examination_criteria_removal)
+        #self.examination_remove_criteria_button.clicked.connect(self.examination_criteria_removal)
+
+        # Allow file export with the click of a button
+        self.export_tabledata_button.clicked.connect(self.export_query_examination_data)
+
+
 
         # Show the gui layout
         self.show()
 
 
+    def export_query_examination_data(self):
+
+        FILE_NAME = 'export.csv'
+        self.exportFile = open(FILE_NAME, 'wt')
+        self.writer = csv.writer(self.exportFile)
+
+        # If your don't have header data, Your can delete this section
+        listsTmpData = []
+        for column in range(self.queryexamination_querymodel.columnCount()):
+            listsTmpData.append(str(self.queryexamination_querymodel.headerData(column, QtCore.Qt.Horizontal)))
+        self.writer.writerow(listsTmpData)
+
+        # Write file
+        for row in range(self.queryexamination_querymodel.rowCount()):
+            listsTmpData = []
+            for column in range(self.queryexamination_querymodel.columnCount()):
+                if str(self.queryexamination_querymodel.record(row).value(column)) == '':
+                    listsTmpData.append('')
+                    print('!!!')
+                else:
+                    listsTmpData.append(str(self.queryexamination_querymodel.record(row).value(column)))
+                    print(str(self.queryexamination_querymodel.record(row).value(column)))
+
+            self.writer.writerow(listsTmpData)
+        self.exportFile.close()
+
+
+        # FILE_NAME = 'export.csv'
+        # self.exportFile = open(FILE_NAME, 'wt')
+        # self.writer = csv.writer(self.exportFile)
+        # for row in range(self.queryexamination_querymodel.rowCount()):
+        #     rowdata = []
+        #     for column in range(self.queryexamination_querymodel.columnCount()):
+        #         item = self.queryexamination_querymodel.item(row, column)
+        #         if item is not None:
+        #             rowdata.append(item.text())
+        #         else:
+        #             rowdata.append('')
+        #     self.writer.writerow(rowdata)
+
+        # listsTmpData = []
+        #
+        # for row in range(self.queryexamination_querymodel.rowCount()):
+        #     listsTmpData.append([])
+        #     for column in range(self.queryexamination_querymodel.columnCount()):
+        #         index = self.queryexamination_querymodel.index(row, column)
+        #         # We suppose data are strings
+        #         listsTmpData[row].append(str(self.queryexamination_querymodel.data(index).toString()))
+
     def examination_add_criteria(self):
+
         entered_parameter_col = self.parameter_cb.currentText()
         entered_operator = self.operator_cb.currentText()
         entered_parameter_val = self.parameter_le.text()
@@ -103,96 +162,40 @@ class MainWindow(QMainWindow, Ui_main_app_window,sql_show_all,mysql_connector,sq
         divider = ' '
         criteria_label_text = (str(self.criteria_index), entered_parameter_col,entered_operator, entered_parameter_val)
         criteria_label_text = divider.join(criteria_label_text)
-        #self.criteria_names[self.criteria_index] = criteria_label_text
 
         criteria_parameters = [entered_parameter_col,entered_operator, entered_parameter_val]
         self.prepared_criteria.append(criteria_parameters)
-        #criteria_label_name = 'ex_label_' + str(self.criteria_index)
-
-        # Assign consecutive label names indicating criteria used
-        #getattr(self, criteria_label_name).setText(criteria_label_text)
 
         name = 'examination_criteria_label_{}'.format(self.criteria_index)
         label = QLabel(self.criteria_container_groupbox)
         label.setObjectName(name)
         label.setText(criteria_label_text)
+        label.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        label.setMaximumSize(QtCore.QSize(16777215, 25))
+        label.setMinimumSize(QtCore.QSize(16777215, 25))
         self.verticalLayout.addWidget(label)
         self.criteria_labels[name] = label
 
         self.criteria_index += 1
 
-
-    def examination_criteria_removal(self):
-
-        # The least problematic way to implement manual removing from GUI is to prepare whole table and labels
-        # as well as the query again
-
-        print (self.criteria_index, self.prepared_criteria, self.criteria_labels)
-
-        # Preparing the temporary table again
-        examination_reset_query = QSqlQuery();
-        examination_reset_query.exec_("call Examination_reset")
-
-        # Delete  the criteria labels
-        for i in range(1, self.criteria_index):
-            self.criteria_labels['examination_criteria_label_{}'.format(i)].deleteLater()
-
-        # Reset the criteria index count
-        self.criteria_index = 1
-
-        criteria_removed_index = int(self.criteria_removal_le.text())
-        #self.criteria_labels['examination_criteria_label_{}'.format(criteria_removed_index)].deleteLater()
-        self.criteria_labels = dict()
-        del self.prepared_criteria[criteria_removed_index - 1]  # Deleting one as array is indexed from 0, not 1
-
-        divider = ' '
-
-        for k in range (1, self.prepared_criteria):
-
-            criteria_label_text = (str(self.criteria_index), self.prepared_criteria[k,1], self.prepared_criteria[k,2], self.prepared_criteria[k, 3])
-            criteria_label_text = divider.join(criteria_label_text)
-
-            label = QLabel(self.criteria_container_groupbox)
-            name = 'examination_criteria_label_{}'.format(self.criteria_index)
-            label.setObjectName(name)
-            label.setText(criteria_label_text)
-            self.verticalLayout.addWidget(label)
-            self.criteria_labels[name] = label
-
-            self.criteria_index += 1
-
-
-        name = 'examination_criteria_label_{}'.format(self.criteria_index)
-        label = QLabel(self.criteria_container_groupbox)
-        label.setObjectName(name)
-        label.setText(criteria_label_text)
-        self.verticalLayout.addWidget(label)
-        self.criteria_labels[name] = label
-
-        print (self.criteria_index, self.prepared_criteria, self.criteria_labels)
-
-
-        # The specified query with the rest of criteria have to be run again
-        self.query_examination()
-
-
     def query_examination_reset(self):
+
         self.examinationtable_tablemodel.select()
         self.examination_table.setModel(self.examinationtable_tablemodel)
         self.examination_table.resizeColumnsToContents()
         examination_reset_query = QSqlQuery();
-        examination_reset_query.exec_("call Examination_reset")
+        examination_reset_query.exec_("call Examination_reset") # deleting temporary tables in the database
 
         # Reset the criteria labels
         for i in range(1, self.criteria_index):
             self.criteria_labels['examination_criteria_label_{}'.format(i)].deleteLater()
-
 
         # Reset the criteria index count
         self.criteria_index = 1
 
         # Empty the criteria with its paremeters
         self.prepared_criteria = []
+
 
     def query_examination(self):
 
