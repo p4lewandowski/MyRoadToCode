@@ -3,12 +3,12 @@ import sys
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-
 from RHM_Frame import AuxiliaryFunctions
 from RHM_Frame.Application import MainWindow
+from SQL_Connector.mysql_connector import mysql_connector
 
 
-class LogInWindow(QWidget):
+class LogInWindow(QWidget, mysql_connector):
     def __init__(self):
         super().__init__()
 
@@ -73,10 +73,15 @@ class LogInWindow(QWidget):
         self.show()
 
     def passing_credentials(self):
-        self.username_cred = self.username_edit.text()
-        self.userpass_cred = self.password_edit.text()
-        self.new_connection = MainWindow(self.username_cred, self.userpass_cred)
-        print(self.username_cred, self.userpass_cred)
+        username_cred = self.username_edit.text()
+        userpass_cred = self.password_edit.text()
+        _, connection_status = self.mysql_connection(username_cred, userpass_cred)
+
+        # If credentials allright go to application
+        if connection_status == True:
+            self.hide()
+            self.new_connection = MainWindow(username_cred, userpass_cred)
+
 
     def closeEvent(self, event):
 

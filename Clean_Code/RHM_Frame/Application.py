@@ -19,6 +19,7 @@ class MainWindow(QMainWindow, Ui_main_app_window, mysql_connector, patient_crede
 
         #self.LogInInstance = LogInWindow()
         #self.LogInInstance.initUi()
+        #self.db_connection = db_connection
         self.username_cred = 'root'
         self.userpass_cred = 'W950418w'
 
@@ -27,7 +28,7 @@ class MainWindow(QMainWindow, Ui_main_app_window, mysql_connector, patient_crede
 
         # Creating database connection
         try:
-            self.db_connection = self.mysql_connection()
+            self.db_connection = self.mysql_connection(self.username_cred, self.userpass_cred)
         except Exception as ex:
             print(ex)
 
@@ -94,7 +95,7 @@ class MainWindow(QMainWindow, Ui_main_app_window, mysql_connector, patient_crede
         #self.examination_remove_criteria_button.clicked.connect(self.examination_criteria_removal)
 
         # Allow file export with a click of a button
-        self.export_tabledata_button.clicked.connect(self.export_query_examination_data)
+        self.export_tabledata_button.clicked.connect(lambda: self.export_query_examination_data(self.queryexamination_querymodel))
 
         # Show the gui layout
         self.show()

@@ -1,14 +1,14 @@
 from SQL_Connector.ConfigFileParser import read_db_config
 from PyQt5.QtSql import QSqlDatabase
 
-
 class mysql_connector():
 
-    def mysql_connection(self):
+    def mysql_connection(self, username, password):
 
-        db_config = read_db_config()
-        db_config['user'] = self.username_cred
-        db_config['password'] = self.userpass_cred
+        # Full path needs to be specified
+        db_config = read_db_config('C:\\Users\\Virneal\\Documents\\IFE\\Bachelor_code\\Clean_Code\\SQL_Connector\\ConnectionConfig.ini', 'mysql')
+        db_config['user'] = username
+        db_config['password'] = password
 
         ### QtSQL Connection
         db = QSqlDatabase.addDatabase("QMYSQL")
@@ -22,7 +22,9 @@ class mysql_connector():
 
         if not db.open():
             print("Database Connection Error", "Database Error: %s" % db.lastError().text())
+            connection_bool = False
         else:
             print('Connection established')
+            connection_bool = True
 
-        return db
+        return db, connection_bool

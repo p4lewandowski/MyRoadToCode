@@ -1,7 +1,7 @@
 from configparser import ConfigParser
 
 
-def read_db_config(filename='SQL_Connector\\ConnectionConfig.ini', section='mysql'):
+def read_db_config(filename, section):
 
     # Initialize parser and read the file
     parser = ConfigParser()
@@ -18,4 +18,4 @@ def read_db_config(filename='SQL_Connector\\ConnectionConfig.ini', section='mysq
 
     return db
 
-read_db_config()
+#read_db_config('ConnectionConfig.ini', 'mysql')
