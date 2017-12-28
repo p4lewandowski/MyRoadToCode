@@ -4,33 +4,20 @@ from PyQt5.QtSql import *
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow
 
 from RHM_GUI.ApplicationWindow import Ui_main_app_window
-from SQL_Connector.mysql_connector import mysql_connector
 from SQL_Tabs.SQL_PatientCredentials import patient_credentials_func
 from SQL_Tabs.SQL_PatientExamination import patient_examination_func
 from SQL_Tabs.SQL_QueryModelExport import export_query_model
 
 
-class MainWindow(QMainWindow, Ui_main_app_window, mysql_connector, patient_credentials_func, patient_examination_func, export_query_model):
+class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, patient_examination_func, export_query_model):
 
-    def __init__(self,username_cred, userpass_cred):
+    def __init__(self):
         # Simple reason why we use it here is that it allows us to
         # access variables, methods etc in the design.py file
         super(self.__class__, self).__init__() # Inheritance
 
-        #self.LogInInstance = LogInWindow()
-        #self.LogInInstance.initUi()
-        #self.db_connection = db_connection
-        self.username_cred = 'root'
-        self.userpass_cred = 'W950418w'
-
-        # If connected
+        ################## Initialize the application ##################
         self.setupUi(self)
-
-        # Creating database connection
-        try:
-            self.db_connection = self.mysql_connection(self.username_cred, self.userpass_cred)
-        except Exception as ex:
-            print(ex)
 
         ################## Cosmetic settings ##################
         # Setting up icon and window title
@@ -103,7 +90,7 @@ class MainWindow(QMainWindow, Ui_main_app_window, mysql_connector, patient_crede
 
 if __name__ == '__main__':        # if we're running file directly and not importing it
     app = QApplication(sys.argv)  # A new instance of QApplication
-    form = MainWindow('root', 'W950418w')  # We set the form to be our ExampleApp (design)
+    form = MainWindow()  # We set the form to be our ExampleApp (design)
     #form = MainWindow()
     form.show()  # Show the form
     app.exec_()  # and execute the app

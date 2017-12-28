@@ -77,10 +77,10 @@ class LogInWindow(QWidget, mysql_connector):
         userpass_cred = self.password_edit.text()
         _, connection_status = self.mysql_connection(username_cred, userpass_cred)
 
-        # If credentials allright go to application
+        # If credentials are proper go to application
         if connection_status == True:
             self.hide()
-            self.new_connection = MainWindow(username_cred, userpass_cred)
+            self.new_connection = MainWindow()
 
 
     def closeEvent(self, event):

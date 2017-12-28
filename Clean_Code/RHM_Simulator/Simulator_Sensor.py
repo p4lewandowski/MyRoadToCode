@@ -1,22 +1,18 @@
 import sys
 from PyQt5.QtWidgets import QApplication #QApplication is required to make connection
-from mysql_connector import mysql_connector
+from SQL_Connector.mysql_connector import mysql_connector
 from PyQt5.QtSql import QSqlQuery
 from random import randint
 from datetime import datetime, timedelta
 
 class MainWindow(mysql_connector):
     def __init__(self,username_cred, userpass_cred):
-        # Simple reason why we use it here is that it allows us to
-        # access variables, methods etc in the design.py file
-        super(self.__class__, self).__init__() # Inheritance
 
-        self.username_cred = 'root'
-        self.userpass_cred = 'W950418w'
+        super(self.__class__, self).__init__() #
 
         # Creating database connection
         try:
-            self.db_connection = self.mysql_connection()
+            self.db_connection = self.mysql_connection(username_cred, userpass_cred)
         except Exception as ex:
             print(ex)
 
@@ -26,11 +22,11 @@ class MainWindow(mysql_connector):
         self.insert_data_query = QSqlQuery();
 
         # Do it some strict number of times
-        for i in range(1,3000):
+        for i in range(1,1000):
 
             # random examination type and patient id
             examination_type = randint(1, 3)
-            patientID = randint(1, 897)
+            patientID = randint(800, 1300)
 
             # Random time, increasing by strict amount of time per iteration cycle
             examination_date = datetime.now()
@@ -66,7 +62,7 @@ class MainWindow(mysql_connector):
         self.insert_data_query.exec_(transferred_string)
 
 
-if __name__ == '__main__':        # if we're running file directly and not importing it
-    app = QApplication(sys.argv)  # A new instance of QApplication
-    form = MainWindow('root', 'W950418w')  # We set the form to be our ExampleApp (design)
-    app.exec_()  # and execute the app
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    form = MainWindow('root', 'W950418w')
+    app.exec_()
