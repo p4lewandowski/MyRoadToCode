@@ -1,4 +1,10 @@
-class sql_find_patient():
+class patient_credentials_func():
+
+    def show_all_patients(self):
+
+        self.patienttable_tablemodel.select()
+        self.patient_table.setModel(self.patienttable_tablemodel)
+        self.patient_table.resizeColumnsToContents()
 
     def call_find_patient(self):
 

@@ -1,4 +1,4 @@
-from ConfigFileParser import read_db_config
+from SQL_Connector.ConfigFileParser import read_db_config
 from PyQt5.QtSql import QSqlDatabase
 
 

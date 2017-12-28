@@ -1,9 +1,12 @@
 import sys
-from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
+
 from PyQt5.QtCore import *
-from Application import MainWindow
-import AuxiliaryFunctions
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
+
+from RHM_Frame import AuxiliaryFunctions
+from RHM_Frame.Application import MainWindow
+
 
 class LogInWindow(QWidget):
     def __init__(self):
