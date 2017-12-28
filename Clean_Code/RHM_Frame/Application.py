@@ -1,12 +1,15 @@
 import sys
+
 from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtSql import *
-from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow
+from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QMessageBox
 
 from RHM_GUI.ApplicationWindow import Ui_main_app_window
+
 from SQL_Tabs.SQL_PatientCredentials import patient_credentials_func
 from SQL_Tabs.SQL_PatientExamination import patient_examination_func
 from SQL_Tabs.SQL_QueryModelExport import export_query_model
+
 
 
 class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, patient_examination_func, export_query_model):
@@ -87,6 +90,16 @@ class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, pati
         # Show the gui layout
         self.show()
 
+    def closeEvent(self, event):
+
+        reply = QMessageBox.question(self, 'Session Termination',
+                                     "Are you sure to quit?", QMessageBox.Yes |
+                                     QMessageBox.No, QMessageBox.No)
+
+        if reply == QMessageBox.Yes:
+            event.accept()
+        else:
+            event.ignore()
 
 if __name__ == '__main__':        # if we're running file directly and not importing it
     app = QApplication(sys.argv)  # A new instance of QApplication

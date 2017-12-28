@@ -1,9 +1,15 @@
 import sys
+
 from PyQt5.QtWidgets import QApplication #QApplication is required to make connection
-from SQL_Connector.mysql_connector import mysql_connector
 from PyQt5.QtSql import QSqlQuery
+
+from SQL_Connector.mysql_connector import mysql_connector
+
 from random import randint
+
 from datetime import datetime, timedelta
+
+
 
 class MainWindow(mysql_connector):
     def __init__(self,username_cred, userpass_cred):

@@ -3,9 +3,10 @@ import sys
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-from RHM_Frame import AuxiliaryFunctions
+
 from RHM_Frame.Application import MainWindow
 from SQL_Connector.mysql_connector import mysql_connector
+
 
 
 class LogInWindow(QWidget, mysql_connector):
@@ -16,14 +17,8 @@ class LogInWindow(QWidget, mysql_connector):
 
     def initUI(self):
 
-        # Creating window and centering it
-        #self.resize(500, 350)
-        # Setting up icon and window title
         self.setWindowTitle('Log in to Remote Health Monitoring System')
         self.setWindowIcon(QIcon('Cardiology.png'))
-        AuxiliaryFunctions.center(self)
-        # self.setWindowModality(Qt.ApplicationModal)
-
 
         # Specyfying the font for WelcomeLabel
         welcome_font = QFont()
@@ -38,6 +33,8 @@ class LogInWindow(QWidget, mysql_connector):
         username_label.setAlignment(Qt.AlignCenter)
         password_label = QLabel('Password')
         password_label.setAlignment(Qt.AlignCenter)
+
+        # Line edits for credentials
         self.username_edit = QLineEdit(self)
         self.password_edit = QLineEdit(self)
         self.password_edit.setEchoMode(QLineEdit.Password)
@@ -57,19 +54,20 @@ class LogInWindow(QWidget, mysql_connector):
         exit_button.clicked.connect(QCoreApplication.instance().quit)
 
         # Preparing the layout
-        log_layout = QGridLayout(self)
-        log_layout.setSpacing(10)
+        self.log_layout = QGridLayout(self)
+        self.log_layout.setSpacing(10)
 
-        log_layout.addWidget(welcome_label, 0, 0, 2, 10)
-        log_layout.addWidget(logo_pic, 1, 0, 10, 6)
-        log_layout.addWidget(username_label,2,7)
-        log_layout.addWidget(self.username_edit,3, 7)
-        log_layout.addWidget(password_label, 4, 7)
-        log_layout.addWidget(self.password_edit, 5, 7)
-        log_layout.addWidget(log_in_button,7, 7)
-        log_layout.addWidget(exit_button,10,7)
+        # Creating widgets
+        self.log_layout.addWidget(welcome_label, 0, 0, 2, 10)
+        self.log_layout.addWidget(logo_pic, 1, 0, 10, 6)
+        self.log_layout.addWidget(username_label,2,7)
+        self.log_layout.addWidget(self.username_edit,3, 7)
+        self.log_layout.addWidget(password_label, 4, 7)
+        self.log_layout.addWidget(self.password_edit, 5, 7)
+        self.log_layout.addWidget(log_in_button,8, 7)
+        self.log_layout.addWidget(exit_button,10,7)
 
-        self.setLayout(log_layout)
+        self.setLayout(self.log_layout)
         self.show()
 
     def passing_credentials(self):
@@ -79,9 +77,18 @@ class LogInWindow(QWidget, mysql_connector):
 
         # If credentials are proper go to application
         if connection_status == True:
+
             self.hide()
             self.new_connection = MainWindow()
 
+        # Else show incorrect credentials label
+        # show wrong credentials label
+        else:
+
+            login_status_label = QLabel("<font color='red'>Wrong Username or Password</font>")
+            login_status_label.setAlignment(Qt.AlignCenter)
+            login_status_label.setFont(QFont("Times", 8, weight=QFont.Bold))
+            self.log_layout.addWidget(login_status_label, 7, 7)
 
     def closeEvent(self, event):
 
