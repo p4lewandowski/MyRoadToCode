@@ -665,29 +665,6 @@
              </property>
             </widget>
            </item>
-           <item row="0" column="0">
-            <widget class="QLabel" name="patient_examination_main_label">
-             <property name="maximumSize">
-              <size>
-               <width>16777215</width>
-               <height>30</height>
-              </size>
-             </property>
-             <property name="font">
-              <font>
-               <pointsize>12</pointsize>
-               <weight>75</weight>
-               <bold>true</bold>
-              </font>
-             </property>
-             <property name="text">
-              <string>Patient Examination</string>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
-           </item>
            <item row="2" column="0" alignment="Qt::AlignTop">
             <widget class="QScrollArea" name="scrollArea">
              <property name="minimumSize">
@@ -730,6 +707,59 @@
              </widget>
             </widget>
            </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="patient_examination_main_label">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Patient Examination</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QPushButton" name="export_tabledata_button">
+             <property name="text">
+              <string>Export</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="export_table_label">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>11</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Export Table</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
            <item row="3" column="0">
             <widget class="QGroupBox" name="modify_criteria_groupbox">
              <property name="minimumSize">
@@ -754,16 +784,25 @@
               <string/>
              </property>
              <layout class="QGridLayout" name="A">
-              <item row="4" column="2">
-               <widget class="QLabel" name="criteria_operator_label">
+              <item row="3" column="0" colspan="5">
+               <widget class="QLabel" name="criteria_adding_label">
                 <property name="maximumSize">
                  <size>
                   <width>16777215</width>
-                  <height>15</height>
+                  <height>10</height>
                  </size>
                 </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
                 <property name="text">
-                 <string>Operator</string>
+                 <string>Add criteria - Choose criteria options</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
@@ -790,7 +829,46 @@
                 </property>
                </widget>
               </item>
-              <item row="8" column="0" colspan="5">
+              <item row="4" column="3">
+               <widget class="QLabel" name="criteria_parameter_label_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>15</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Parameter Value</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="4">
+               <widget class="QPushButton" name="examination_add_criteria_button">
+                <property name="maximumSize">
+                 <size>
+                  <width>50</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Add</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="QLabel" name="criteria_operator_label">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>15</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Operator</string>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="0" colspan="5">
                <widget class="QLabel" name="criteria_removal_label">
                 <property name="maximumSize">
                  <size>
@@ -812,51 +890,6 @@
                 </property>
                </widget>
               </item>
-              <item row="10" column="3">
-               <widget class="QLineEdit" name="criteria_removal_le">
-                <property name="maximumSize">
-                 <size>
-                  <width>80</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="3" column="0" colspan="5">
-               <widget class="QLabel" name="criteria_adding_label">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>10</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>Add criteria - Choose criteria options</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item row="10" column="4">
-               <widget class="QPushButton" name="examination_remove_criteria_button">
-                <property name="maximumSize">
-                 <size>
-                  <width>50</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Remove</string>
-                </property>
-               </widget>
-              </item>
               <item row="2" column="0" colspan="5">
                <widget class="Line" name="line">
                 <property name="frameShadow">
@@ -867,88 +900,54 @@
                 </property>
                </widget>
               </item>
-              <item row="1" column="0" colspan="5">
-               <widget class="QLabel" name="criteria_modify_label">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <pointsize>12</pointsize>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>Add or remove criteria</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item row="11" column="0" colspan="3">
-               <widget class="QPushButton" name="examination_search_button">
-                <property name="text">
-                 <string>Search</string>
-                </property>
-               </widget>
-              </item>
-              <item row="7" column="0" colspan="5">
+              <item row="8" column="0" colspan="5">
                <widget class="Line" name="line_2">
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
                 </property>
                </widget>
               </item>
-              <item row="12" column="3">
-               <widget class="QPushButton" name="export_tabledata_button">
-                <property name="text">
-                 <string>Export</string>
-                </property>
-               </widget>
-              </item>
-              <item row="4" column="3">
-               <widget class="QLabel" name="criteria_parameter_label_2">
-                <property name="maximumSize">
+              <item row="6" column="2">
+               <widget class="QComboBox" name="operator_cb">
+                <property name="minimumSize">
                  <size>
-                  <width>16777215</width>
-                  <height>15</height>
+                  <width>40</width>
+                  <height>0</height>
                  </size>
                 </property>
-                <property name="text">
-                 <string>Parameter Value</string>
-                </property>
-               </widget>
-              </item>
-              <item row="11" column="3" colspan="2">
-               <widget class="QPushButton" name="examination_search_reset_button">
-                <property name="text">
-                 <string>Reset and show all</string>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="4">
-               <widget class="QPushButton" name="examination_add_criteria_button">
                 <property name="maximumSize">
                  <size>
-                  <width>50</width>
+                  <width>30</width>
                   <height>16777215</height>
                  </size>
                 </property>
-                <property name="text">
-                 <string>Add</string>
-                </property>
+                <item>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>&gt;</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>&lt;</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>=</string>
+                 </property>
+                </item>
                </widget>
               </item>
               <item row="6" column="0">
                <widget class="QComboBox" name="parameter_cb">
                 <property name="minimumSize">
                  <size>
-                  <width>120</width>
+                  <width>125</width>
                   <height>0</height>
                  </size>
                 </property>
@@ -1015,43 +1014,86 @@
                 </item>
                </widget>
               </item>
-              <item row="6" column="2">
-               <widget class="QComboBox" name="operator_cb">
-                <property name="minimumSize">
-                 <size>
-                  <width>40</width>
-                  <height>0</height>
-                 </size>
-                </property>
+              <item row="11" column="1">
+               <widget class="QPushButton" name="examination_remove_criteria_button">
                 <property name="maximumSize">
                  <size>
-                  <width>30</width>
+                  <width>50</width>
                   <height>16777215</height>
                  </size>
                 </property>
-                <item>
-                 <property name="text">
-                  <string/>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>&gt;</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>&lt;</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>=</string>
-                 </property>
-                </item>
+                <property name="text">
+                 <string>Remove</string>
+                </property>
+               </widget>
+              </item>
+              <item row="11" column="0">
+               <widget class="QLineEdit" name="criteria_removal_le">
+                <property name="maximumSize">
+                 <size>
+                  <width>80</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="3" colspan="2">
+               <widget class="QPushButton" name="examination_search_button">
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Search</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="0" colspan="2">
+               <widget class="QPushButton" name="examination_search_reset_button">
+                <property name="font">
+                 <font>
+                  <weight>50</weight>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Reset and show all</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" colspan="5">
+               <widget class="QLabel" name="criteria_modify_label">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>11</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Add or remove criteria</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
                </widget>
               </item>
              </layout>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="Line" name="line_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
             </widget>
            </item>
           </layout>

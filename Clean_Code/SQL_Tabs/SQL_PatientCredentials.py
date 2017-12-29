@@ -2,9 +2,12 @@ class patient_credentials_func():
 
     def show_all_patients(self):
 
-        self.patienttable_tablemodel.select()
+        #self.patienttable_tablemodel.select()
         self.patient_table.setModel(self.patienttable_tablemodel)
         self.patient_table.resizeColumnsToContents()
+        # Enable all the values to be exported
+        self.findpatient_querymodel.setQuery("call FindPatient_OR('%','%','%','%','%','%','%','%','%')")
+
 
     def call_find_patient(self):
 
@@ -29,13 +32,13 @@ class patient_credentials_func():
                     find_patient_args[index] = 'Null'
 
             # Calling QSqlQueryModel with specified query
-            self.findpatient_querymodel.setQuery("call FindPatient('{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(*find_patient_args))
+            self.findpatient_querymodel.setQuery("call FindPatient_OR('{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(*find_patient_args))
 
         else:
             for index, values in enumerate(find_patient_args):
                 if not find_patient_args[index]:
                     find_patient_args[index] = '%'
-            self.findpatient_querymodel.setQuery("call FindPatientA('{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(*find_patient_args))
+            self.findpatient_querymodel.setQuery("call FindPatient_AND('{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}')".format(*find_patient_args))
 
         # Changing table display
         self.patient_table.setModel(self.findpatient_querymodel)

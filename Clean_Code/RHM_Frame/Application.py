@@ -86,6 +86,7 @@ class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, pati
 
         # Allow file export with a click of a button
         self.export_tabledata_button.clicked.connect(lambda: self.export_query_examination_data(self.queryexamination_querymodel))
+        self.findpatient_export_button.clicked.connect(lambda: self.export_query_examination_data(self.findpatient_querymodel))
 
         # Show the gui layout
         self.show()

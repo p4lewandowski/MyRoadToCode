@@ -12,6 +12,7 @@ class export_query_model:
         exported_data = []
         for column in range(model.columnCount()):
             exported_data.append(str(model.headerData(column, QtCore.Qt.Horizontal)))
+            print (exported_data)
         self.csv_writer.writerow(exported_data)
 
         # Go through rows to get the data

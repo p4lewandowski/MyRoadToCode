@@ -1,0 +1,2301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main_app_window</class>
+ <widget class="QMainWindow" name="main_app_window">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1206</width>
+    <height>740</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tab_widget">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="general_tab">
+       <attribute name="title">
+        <string>General</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_7">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>14</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Remote Health Monitoring System Application</string>
+            </property>
+            <property name="textFormat">
+             <enum>Qt::RichText</enum>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="wordWrap">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>TextLabel</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="credentials_tab">
+       <attribute name="title">
+        <string>Patient Credentials</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="findpatient_layout">
+          <item row="3" column="0">
+           <widget class="QTabWidget" name="findpatient_tab_widget">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="tabShape">
+             <enum>QTabWidget::Rounded</enum>
+            </property>
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <property name="elideMode">
+             <enum>Qt::ElideLeft</enum>
+            </property>
+            <widget class="QWidget" name="basic_param_tab">
+             <attribute name="title">
+              <string>Basic Search</string>
+             </attribute>
+             <widget class="QWidget" name="gridLayoutWidget_6">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>191</width>
+                <height>171</height>
+               </rect>
+              </property>
+              <layout class="QGridLayout" name="findpatient_basic_layout">
+               <item row="7" column="0">
+                <widget class="QLineEdit" name="pesel_le">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLineEdit" name="surname_le">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="name_label">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Name</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLineEdit" name="name_le">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QLabel" name="pesel_label">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>PESEL</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="surname_label">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="autoFillBackground">
+                  <bool>false</bool>
+                 </property>
+                 <property name="text">
+                  <string>Surname</string>
+                 </property>
+                 <property name="textFormat">
+                  <enum>Qt::AutoText</enum>
+                 </property>
+                 <property name="scaledContents">
+                  <bool>false</bool>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="adv_param_tab">
+             <attribute name="title">
+              <string>Advanced Search</string>
+             </attribute>
+             <widget class="QWidget" name="gridLayoutWidget_5">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>191</width>
+                <height>314</height>
+               </rect>
+              </property>
+              <layout class="QGridLayout" name="findpatient_adv_layout">
+               <item row="2" column="0">
+                <widget class="QLabel" name="gender_label">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Gender</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="0">
+                <widget class="QLabel" name="city_label">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>City</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="0">
+                <widget class="QLabel" name="phonenumber_label">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Phone number</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="0">
+                <widget class="QLineEdit" name="phonenumber_le">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="0">
+                <widget class="QLabel" name="postalcode_label">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Postal code</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="0">
+                <widget class="QLineEdit" name="city_le">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QComboBox" name="country_cb">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="sizeAdjustPolicy">
+                  <enum>QComboBox::AdjustToContents</enum>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Afghanistan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Albania</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Algeria</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>American Samoa</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Andorra</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Andola</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Antarctica%</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Antigua and Barbuda</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Argentina</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Armenia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Aruba</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Australia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Austria</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Azerbaijan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Bahamas</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Bahrain</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Bangladesh</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Barbados</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Belarus</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Belgium</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Belize</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Benin</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Bermuda</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Bhutan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Bolivia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Bosnia and Herzegovina</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Botswana</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Bouvet Island (Bouvetoya)</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Brazil</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>British Indian Ocean Territory%</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>British Virgin Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Brunei Darussalam</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Bulgaria</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Burkina Faso</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Burundi</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Cambodia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Cameroon</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Canada</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Cape Verde</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Cayman Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Central African Republic</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Chad</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Chile</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>China</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Christmas Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Cococ (Keeling) Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Colombia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Congo</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Cook Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Costa Rica</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Cote d'Ivoire</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Croatia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Cuba</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Cyprus</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Czech Republic</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Denmark</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Djibouti</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Dominica</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Dominican Republic</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Ecuador</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Egypt</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>El Salvador</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Equatorial Guinea</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Eritrea</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Estonia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Ethiopia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Falkland Islands (Malvinas)</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Faroe Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Fiji</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Finland</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>France</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>French Guiana</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>French Polynesia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>French Southers Territories</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Gabonn</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Gambia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Georgia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Germany</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Ghana</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Gibraltar</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Greece</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Greenland</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Grenada</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Guadeloupe</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Guam</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Guatemala</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Guernsey</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Guinea</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Guinea-Bissau</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Guyana</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Haiti</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Heard Island and McDonald Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Holy See (Vatican City State)</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Honduras</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Hong Kong</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Hungary</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Iceland</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>India</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Indonesia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Iran</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Iraq</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Ireland</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Isle of Man</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Isreal</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Italy</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Jamaica</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Japan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Jersey</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Jordan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Kazahstan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Kenya</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Kiribati</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Korea</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Kuwait</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Kyrgyz Republic</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Lao People's Democratic Republic</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Latvia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Lebanon</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Lesotho</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Liberia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Libyan Arab Jamahiriya</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Liechtenstein</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Lithuania</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Luxembourg</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Macao</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Macedonia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Madagascar</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Malawi</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Malaysia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Maldives</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Mali</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Malta</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Marshall Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Martinique</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Mauritania</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Maurtitius</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Mayotte</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Mexico</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Micronesia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Moldova</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Monaco</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Mongolia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Montenegro</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Montserrat</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Morocco</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Mozambique</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Myanmar</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Namibia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Nauru</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Nepal</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Netherlands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Netherlands Antilles</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>New Caledonia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>New Zealand</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Nicaragua</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Niger</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Nigeria</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Niue</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Norfolk Island</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Northern Marian Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Norway</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Oman</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Pakistan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Palau</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Palestinian Territory</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Panama</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Papua New Guinea</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Paraguay</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Peru</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Philippines</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Pitcairn Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Poland</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Portugal</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Puerto Rico</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Qatar</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Reunion</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Romania</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Russian Federation</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Rwanda</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Saint Barthelemy</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Saint Helena</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Saint Kitts and Nevis</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Saint Lucia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Saint Martin</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Saint Pierre and Miquelon</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Saint Vincent and the Grenadines</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Samoa</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>San Marino</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Sao Tome and Principe</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Saudi Arabia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Senegal</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Serbia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Seychelles</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Sierra Leona</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Singapore</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Slovakia (Slovak Republic)</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Slovenia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Solomon Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Somalia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>South Africa</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>South Georgia and the South Sandwich Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Spain</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Sri Lanka</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Sudan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Suriname</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Svalbard &amp; Jan Mayen Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Swaziland</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Sweden</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Switzerland</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Syrian Arab Republic</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Taiwan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Tajikistan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Tanzania</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Thailand</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Timor-Leste</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Togo</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Tokelau</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Tonga</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Trinidad and Tobago</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Tunisia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Turkey</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Turkmenistan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Turks and Caicos Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Tuvalu</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Uganda</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Ukraine</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>United Arab Emirates</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>United Kingdom</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>United States Minor Outlying Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>United States of America</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>United States Virgin Islands</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Uruguay</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Uzbekistan</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Vanuatu</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Venezuela</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Vietnam</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Wallis and Futuna</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Western Sahara</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Yemen</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Zambia</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Zimbabwe</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="4" column="0">
+                <widget class="QLabel" name="country_label">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Country</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="0">
+                <widget class="QLineEdit" name="postalcode_le">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QComboBox" name="gender_cb">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>M</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>F</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="dateofbirth_label">
+                 <property name="font">
+                  <font>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Date of birth</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLineEdit" name="dateofbirth_le"/>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QPushButton" name="findpatient_showall_button">
+            <property name="text">
+             <string>Show All</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QRadioButton" name="enable_a_search">
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Find Many</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="findpatient_search_button">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Search</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="findpatient_label">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>12</pointsize>
+              <weight>75</weight>
+              <italic>false</italic>
+              <bold>true</bold>
+              <underline>false</underline>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <property name="lineWidth">
+             <number>4</number>
+            </property>
+            <property name="midLineWidth">
+             <number>2</number>
+            </property>
+            <property name="text">
+             <string>Find a patient</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="wordWrap">
+             <bool>false</bool>
+            </property>
+            <property name="margin">
+             <number>1</number>
+            </property>
+            <property name="indent">
+             <number>-1</number>
+            </property>
+            <property name="textInteractionFlags">
+             <set>Qt::NoTextInteraction</set>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QPushButton" name="findpatient_export_button">
+            <property name="text">
+             <string>Export</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="1">
+         <widget class="QTableView" name="patient_table">
+          <property name="frameShape">
+           <enum>QFrame::WinPanel</enum>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::NoEditTriggers</set>
+          </property>
+          <property name="sortingEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="examination_tab">
+       <attribute name="title">
+        <string>Patient Examination</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="1">
+         <widget class="QTableView" name="examination_table">
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="editTriggers">
+           <set>QAbstractItemView::NoEditTriggers</set>
+          </property>
+          <property name="sortingEnabled">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QGroupBox" name="examination_tab_main_layout">
+          <property name="minimumSize">
+           <size>
+            <width>350</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>350</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_6">
+           <item row="1" column="0">
+            <widget class="QLabel" name="criteria_box_label">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>15</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>10</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Selected Criteria</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0" alignment="Qt::AlignTop">
+            <widget class="QScrollArea" name="scrollArea">
+             <property name="minimumSize">
+              <size>
+               <width>150</width>
+               <height>300</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>330</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>328</width>
+                <height>298</height>
+               </rect>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_2">
+               <item row="0" column="0">
+                <widget class="QGroupBox" name="criteria_container_groupbox">
+                 <property name="title">
+                  <string/>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout"/>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="patient_examination_main_label">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>12</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Patient Examination</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QPushButton" name="export_tabledata_button">
+             <property name="text">
+              <string>Export</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="export_table_label">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>11</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Export Table</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QGroupBox" name="modify_criteria_groupbox">
+             <property name="minimumSize">
+              <size>
+               <width>300</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>250</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <weight>50</weight>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="title">
+              <string/>
+             </property>
+             <layout class="QGridLayout" name="A">
+              <item row="3" column="0" colspan="5">
+               <widget class="QLabel" name="criteria_adding_label">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>10</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Add criteria - Choose criteria options</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QLabel" name="criteria_parameter_label">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>15</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Parameter</string>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="3">
+               <widget class="QLineEdit" name="parameter_le">
+                <property name="maximumSize">
+                 <size>
+                  <width>90</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="4">
+               <widget class="QPushButton" name="examination_add_criteria_button">
+                <property name="maximumSize">
+                 <size>
+                  <width>50</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Add</string>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="2">
+               <widget class="QLabel" name="criteria_operator_label">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>15</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Operator</string>
+                </property>
+               </widget>
+              </item>
+              <item row="9" column="0" colspan="5">
+               <widget class="QLabel" name="criteria_removal_label">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>15</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Remove criteria - Write criteria index</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0" colspan="5">
+               <widget class="Line" name="line">
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="8" column="0" colspan="5">
+               <widget class="Line" name="line_2">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="6" column="2">
+               <widget class="QComboBox" name="operator_cb">
+                <property name="minimumSize">
+                 <size>
+                  <width>40</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <item>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>&gt;</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>&lt;</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>=</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="6" column="0">
+               <widget class="QComboBox" name="parameter_cb">
+                <property name="minimumSize">
+                 <size>
+                  <width>140</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>120</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <item>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Name</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Surname</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Examination Date</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Systolic Pressure</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Diastolic Pressure</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Heart Rate</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Patient Height</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Patient Weight</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>BMI</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Parameter Warning</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="11" column="1">
+               <widget class="QPushButton" name="examination_remove_criteria_button">
+                <property name="maximumSize">
+                 <size>
+                  <width>50</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Remove</string>
+                </property>
+               </widget>
+              </item>
+              <item row="11" column="0">
+               <widget class="QLineEdit" name="criteria_removal_le">
+                <property name="maximumSize">
+                 <size>
+                  <width>80</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="3" colspan="2">
+               <widget class="QPushButton" name="examination_search_button">
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Search</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="0" colspan="2">
+               <widget class="QPushButton" name="examination_search_reset_button">
+                <property name="font">
+                 <font>
+                  <weight>50</weight>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Reset and show all</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" colspan="5">
+               <widget class="QLabel" name="criteria_modify_label">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>11</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Add or remove criteria</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
+                </property>
+               </widget>
+              </item>
+              <item row="4" column="3" colspan="2">
+               <widget class="QLabel" name="criteria_parameter_label_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>15</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Parameter Value</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="Line" name="line_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="irregularities_tab">
+       <attribute name="title">
+        <string>Trend</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="statistics_tab">
+       <attribute name="title">
+        <string>Statistics</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>name_le</tabstop>
+  <tabstop>surname_le</tabstop>
+  <tabstop>pesel_le</tabstop>
+  <tabstop>dateofbirth_le</tabstop>
+  <tabstop>gender_cb</tabstop>
+  <tabstop>country_cb</tabstop>
+  <tabstop>phonenumber_le</tabstop>
+  <tabstop>city_le</tabstop>
+  <tabstop>postalcode_le</tabstop>
+  <tabstop>findpatient_search_button</tabstop>
+  <tabstop>findpatient_showall_button</tabstop>
+  <tabstop>findpatient_tab_widget</tabstop>
+  <tabstop>examination_table</tabstop>
+  <tabstop>patient_table</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
