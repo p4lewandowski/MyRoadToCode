@@ -7,7 +7,6 @@ import sys
 import datetime
 
 from random import randint
-from datetime import datetime
 from faker import Faker
 
 
@@ -30,7 +29,7 @@ class MainWindow(mysql_connector):
 
         # Generate random parameters
         # Do it some strict number of times
-        for i in range(1,400):
+        for i in range(0,100):
 
             fakesa = Faker()
             PESEL = randint(10000000000, 99999999999)

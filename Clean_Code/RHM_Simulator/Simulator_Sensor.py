@@ -28,11 +28,11 @@ class MainWindow(mysql_connector):
         self.insert_data_query = QSqlQuery();
 
         # Do it some strict number of times
-        for i in range(1,1000):
+        for i in range(0,5000):
 
             # random examination type and patient id
             examination_type = randint(1, 3)
-            patientID = randint(800, 1300)
+            patientID = randint(0, 100)
 
             # Random time, increasing by strict amount of time per iteration cycle
             examination_date = datetime.now()

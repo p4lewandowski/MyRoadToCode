@@ -1,0 +1,53 @@
+Name,Surname,PESEL,Examination Date,Examination Name,Systolic Pressure,Diastolic Pressure,Body Height,Body Weight,BMI,Heart Rate
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 18, 15, 20, 36)",Heart Rate,0,0,0,0,0,92
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 3, 8, 15, 20, 39)",BloodPressure,103,79,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 20, 15, 20, 40)",BloodPressure,115,94,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 3, 27, 15, 20, 41)",Heart Rate,0,0,0,0,0,81
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 25, 15, 20, 42)",Wellness,0,0,161,69,27,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 3, 23, 15, 20, 47)",Wellness,0,0,198,140,36,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 4, 15, 20, 47)",BloodPressure,114,95,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 18, 15, 20, 54)",BloodPressure,118,83,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 18, 15, 20, 54)",BloodPressure,139,83,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 4, 15, 20, 57)",Heart Rate,0,0,0,0,0,66
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 8, 15, 21, 1)",BloodPressure,104,90,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 4, 1, 15, 21, 3)",Wellness,0,0,156,82,34,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 2, 15, 21, 5)",Heart Rate,0,0,0,0,0,62
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 7, 15, 21, 7)",Wellness,0,0,199,74,19,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 9, 15, 21, 10)",BloodPressure,120,83,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 4, 6, 15, 21, 12)",BloodPressure,135,70,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 3, 30, 15, 21, 12)",BloodPressure,140,78,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 7, 15, 21, 14)",BloodPressure,114,67,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 29, 15, 21, 17)",Heart Rate,0,0,0,0,0,78
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 4, 19, 15, 21, 18)",Heart Rate,0,0,0,0,0,93
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 4, 15, 15, 21, 18)",BloodPressure,114,84,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 20, 15, 21, 22)",Heart Rate,0,0,0,0,0,86
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 2, 15, 21, 22)",Heart Rate,0,0,0,0,0,73
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 18, 15, 21, 22)",Wellness,0,0,175,80,26,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 12, 15, 21, 22)",Heart Rate,0,0,0,0,0,81
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 20, 15, 21, 25)",Wellness,0,0,172,138,47,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 18, 15, 21, 25)",BloodPressure,133,81,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 20, 15, 21, 27)",BloodPressure,103,69,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 4, 2, 15, 21, 28)",Heart Rate,0,0,0,0,0,62
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 11, 15, 21, 29)",BloodPressure,126,90,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 17, 15, 21, 31)",Heart Rate,0,0,0,0,0,84
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 9, 15, 21, 31)",BloodPressure,134,84,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 25, 15, 21, 32)",Wellness,0,0,160,136,53,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 27, 15, 21, 35)",BloodPressure,127,72,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 17, 15, 21, 37)",Wellness,0,0,194,54,14,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 3, 28, 15, 21, 50)",Wellness,0,0,177,140,45,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 4, 6, 15, 21, 50)",Heart Rate,0,0,0,0,0,88
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 5, 15, 21, 51)",Wellness,0,0,175,82,27,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 19, 15, 21, 53)",BloodPressure,103,89,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 4, 2, 15, 21, 54)",Wellness,0,0,156,104,43,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 14, 15, 21, 56)",Wellness,0,0,162,52,20,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 3, 22, 15, 21, 57)",BloodPressure,109,70,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 31, 15, 21, 58)",BloodPressure,120,97,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 26, 15, 21, 58)",Heart Rate,0,0,0,0,0,97
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 3, 11, 15, 22, 9)",BloodPressure,114,68,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 22, 15, 22, 9)",BloodPressure,117,95,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 9, 15, 22, 10)",Wellness,0,0,151,96,42,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 1, 26, 15, 22, 11)",Wellness,0,0,181,52,16,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 3, 1, 15, 22, 12)",Wellness,0,0,161,54,21,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 21, 15, 22, 18)",BloodPressure,101,92,0,0,0,0
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 2, 25, 15, 22, 28)",Heart Rate,0,0,0,0,0,71
+Cynthia Cowan,Williamson,66563142949,"PyQt5.QtCore.QDateTime(2018, 4, 15, 15, 22, 28)",Heart Rate,0,0,0,0,0,61

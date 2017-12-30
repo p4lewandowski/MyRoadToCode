@@ -9,10 +9,10 @@ from RHM_GUI.ApplicationWindow import Ui_main_app_window
 from SQL_Tabs.SQL_PatientCredentials import patient_credentials_func
 from SQL_Tabs.SQL_PatientExamination import patient_examination_func
 from SQL_Tabs.SQL_QueryModelExport import export_query_model
+from XXX import do_what_i_want
 
 
-
-class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, patient_examination_func, export_query_model):
+class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, patient_examination_func):
 
     def __init__(self):
         # Simple reason why we use it here is that it allows us to
@@ -52,8 +52,12 @@ class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, pati
         # Creating query model for patientcredentials
         self.findpatient_querymodel = QSqlQueryModel()
 
-        # Creating query model for patientexaminastion
+        # Creating query model for patientexamination
         self.queryexamination_querymodel = QSqlQueryModel()
+
+        # Creating query model for trends
+        self.trend_findpatient_querymodel = QSqlQueryModel()
+        self.trend_patient_examination_querymodel = QSqlQueryModel()
 
         ################## Function Calling ##################
 
@@ -81,8 +85,10 @@ class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, pati
         self.prepared_criteria = []
         self.criteria_index = 1
 
-        # Delete one of the criteria
-        #self.examination_remove_criteria_button.clicked.connect(self.examination_criteria_removal)
+        # Enable buttons for Trend tab
+        self.trend_find_patient_bttn.clicked.connect(self.trend_find_patient)
+        # Call plot and define variables
+        self.trend_plot_button.clicked.connect(lambda: do_what_i_want(self.trend_examinationtype_le.text(), self.trend_pesel_le.text()))
 
         # Allow file export with a click of a button
         self.export_tabledata_button.clicked.connect(lambda: self.export_query_examination_data(self.queryexamination_querymodel))
@@ -90,6 +96,22 @@ class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, pati
 
         # Show the gui layout
         self.show()
+
+
+    def trend_find_patient(self):
+
+        # Reset table before new search
+        self.queryexamination_querymodel.setQuery("call DataVisualization_reset")
+        self.trend_pesel = self.trend_pesel_le.text()
+        self.trend_findpatient_querymodel.setQuery("call FindPatient_OR('', '', '', '', '', '', '', '', '{}')".format(self.trend_pesel))
+        self.trend_patient_table.setModel(self.trend_findpatient_querymodel)
+        self.trend_patient_table.resizeColumnsToContents()
+
+        self.trend_patient_examination_querymodel.setQuery("call DataVisualization_str('PESEL', '{}')".format(self.trend_pesel))
+        self.trend_examinations_table.setModel(self.trend_patient_examination_querymodel)
+        self.trend_examinations_table.resizeColumnsToContents()
+
+    #def trend_patient_parameter_plotting(self):
 
     def closeEvent(self, event):
 
