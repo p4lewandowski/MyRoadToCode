@@ -6,17 +6,9 @@ from datetime import datetime
 
 def do_what_i_want(examination_name, PESEL):
 
-    # scsv = """Date,Examination,Polish,non-Latin,letters
-    # 1,2,3,4,5
-    # 3,4,c,d,e
-    # 5,6,wąż,idzie,wąską
-    # 6,8,wąż,idzie,wąską
-    # 11,6,wąż,idzie,wąską"""
+    ############# Data Parsing Part #############
 
     a = []
-    # reader = csv.reader(scsv.split('\n'), delimiter=',')
-    # for row in reader:
-    #     a.append(row)
 
     with open('C:\\Users\\Virneal\\Documents\\IFE\\Bachelor_code\\Clean_Code\\RHM_exportE.csv', 'rt') as csvfile:
         spamreader = csv.reader(csvfile, delimiter=',')
@@ -48,9 +40,13 @@ def do_what_i_want(examination_name, PESEL):
         else:
             i+=1
 
-    ############# Plot Properties #############
+    trend_plotting(examination_dates,PESEL, examination, examination_name)
+
+def trend_plotting(examination_dates, PESEL, examination, examination_name):
+
+    ############# Plotting Part #############
     fig, ax = plt.subplots()
-    plt.plot(examination_dates, examination, color='#EE6666', linewidth = 4)
+    plotter, = plt.plot(examination_dates, examination, color='#EE6666', linewidth = 4)
 
 
     plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%m/%d/%Y %H:%M:%S'))
@@ -73,9 +69,7 @@ def do_what_i_want(examination_name, PESEL):
     plt.xticks(fontsize = 8)
     ax.xaxis.set_major_locator(plt.MaxNLocator(1.4*len(examination_dates)))
 
-    fig.savefig("test.png", format='eps', dpi=1000)
+    #fig.savefig("test.png", format='eps', dpi=1000)
     plt.show()
-
-
 
 #do_what_i_want('Heart Rate', '05479329432')

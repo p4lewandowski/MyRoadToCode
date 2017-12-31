@@ -4,12 +4,10 @@ from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtSql import *
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QMessageBox
 
+from RHM_DataVisualization.Visualization_PlotParameter import do_what_i_want
 from RHM_GUI.ApplicationWindow import Ui_main_app_window
-
 from SQL_Tabs.SQL_PatientCredentials import patient_credentials_func
 from SQL_Tabs.SQL_PatientExamination import patient_examination_func
-from SQL_Tabs.SQL_QueryModelExport import export_query_model
-from XXX import do_what_i_want
 
 
 class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, patient_examination_func):
