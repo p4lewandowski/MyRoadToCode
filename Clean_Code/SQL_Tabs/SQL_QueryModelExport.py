@@ -4,9 +4,9 @@ import numpy as np
 
 class export_query_model:
 
-    def export_query_examination_data(self, model):
+    def export_query_examination_data(self, model, name = 'RHM_export'):
         # Create and start writing the data to the file
-        self.export_file = open('RHM_export.csv', 'wt', newline='')
+        self.export_file = open(name +'.csv', 'wt', newline='')
         self.csv_writer = csv.writer(self.export_file)
 
         # Go through columns to obtain headers
@@ -32,8 +32,8 @@ class export_query_model:
             # Append having each data category in one column
             complete_data.append(exported_data)
 
-        complete_data = np.array(complete_data)
 
+        complete_data = np.array(complete_data)
 
         # Close writing to the file
         self.export_file.close()

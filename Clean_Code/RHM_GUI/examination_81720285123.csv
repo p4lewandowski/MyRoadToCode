@@ -1,0 +1,50 @@
+Name,Surname,PESEL,Examination Date,Examination Name,Systolic Pressure,Diastolic Pressure,Body Height,Body Weight,BMI,Heart Rate
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 24, 15, 20, 36)",Heart Rate,0,0,0,0,0,69
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 4, 4, 15, 20, 40)",Heart Rate,0,0,0,0,0,66
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 17, 15, 20, 40)",Wellness,0,0,163,79,30,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 20, 15, 20, 43)",Heart Rate,0,0,0,0,0,89
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 16, 15, 20, 44)",Heart Rate,0,0,0,0,0,90
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 6, 15, 20, 44)",Wellness,0,0,192,75,20,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 1, 25, 15, 20, 51)",BloodPressure,120,67,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 7, 15, 20, 51)",Wellness,0,0,164,95,35,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 8, 15, 20, 51)",Wellness,0,0,194,128,34,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 26, 15, 20, 54)",Wellness,0,0,180,45,14,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 1, 8, 15, 20, 55)",Heart Rate,0,0,0,0,0,99
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 1, 9, 15, 20, 57)",Heart Rate,0,0,0,0,0,70
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 25, 15, 20, 58)",Heart Rate,0,0,0,0,0,94
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 9, 15, 21)",BloodPressure,124,88,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 1, 15, 21, 2)",BloodPressure,134,90,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 4, 16, 15, 21, 4)",Wellness,0,0,199,71,18,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 11, 15, 21, 6)",Heart Rate,0,0,0,0,0,73
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 4, 6, 15, 21, 14)",Wellness,0,0,180,72,22,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 1, 25, 15, 21, 16)",Wellness,0,0,171,91,31,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 9, 15, 21, 16)",Heart Rate,0,0,0,0,0,86
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 8, 15, 21, 16)",Wellness,0,0,197,102,26,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 19, 15, 21, 16)",BloodPressure,102,95,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 16, 15, 21, 21)",Wellness,0,0,186,112,32,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 4, 3, 15, 21, 23)",BloodPressure,109,82,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 1, 10, 15, 21, 30)",BloodPressure,140,76,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 4, 12, 15, 21, 35)",BloodPressure,133,81,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 30, 15, 21, 37)",BloodPressure,102,97,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 20, 15, 21, 41)",BloodPressure,118,98,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 4, 15, 21, 42)",Wellness,0,0,153,126,54,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 4, 16, 15, 21, 44)",Heart Rate,0,0,0,0,0,81
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 9, 15, 21, 45)",Wellness,0,0,163,47,18,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 12, 15, 21, 46)",BloodPressure,121,90,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 5, 15, 21, 47)",BloodPressure,118,66,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 1, 29, 15, 21, 49)",BloodPressure,130,92,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 27, 15, 21, 54)",Wellness,0,0,190,111,31,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 1, 25, 15, 21, 57)",Heart Rate,0,0,0,0,0,72
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 12, 15, 22, 1)",Wellness,0,0,156,64,26,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 1, 26, 15, 22, 4)",Heart Rate,0,0,0,0,0,69
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 4, 8, 15, 22, 7)",Heart Rate,0,0,0,0,0,67
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 6, 15, 22, 8)",Wellness,0,0,163,70,26,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 26, 15, 22, 11)",Wellness,0,0,164,111,41,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 20, 15, 22, 13)",BloodPressure,110,91,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 15, 15, 22, 15)",BloodPressure,113,89,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 4, 19, 15, 22, 19)",Heart Rate,0,0,0,0,0,76
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 4, 13, 15, 22, 20)",Wellness,0,0,188,133,38,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 16, 15, 22, 24)",Heart Rate,0,0,0,0,0,86
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 3, 28, 15, 22, 24)",BloodPressure,111,72,0,0,0,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 1, 31, 15, 22, 26)",Wellness,0,0,184,134,40,0
+Brandi Zavala,Dominguez,81720285123,"PyQt5.QtCore.QDateTime(2018, 2, 26, 15, 22, 28)",BloodPressure,117,96,0,0,0,0

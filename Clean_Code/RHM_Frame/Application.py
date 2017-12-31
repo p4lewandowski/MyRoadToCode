@@ -4,13 +4,14 @@ from PyQt5.QtGui import QPixmap, QIcon
 from PyQt5.QtSql import *
 from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QMessageBox
 
-from RHM_DataVisualization.Visualization_PlotParameter import do_what_i_want
+from RHM_DataVisualization.Visualization_PlotParameter import plott_instance
 from RHM_GUI.ApplicationWindow import Ui_main_app_window
 from SQL_Tabs.SQL_PatientCredentials import patient_credentials_func
 from SQL_Tabs.SQL_PatientExamination import patient_examination_func
+from SQL_Tabs.SQL_QueryModelExport import export_query_model
 
 
-class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, patient_examination_func):
+class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, patient_examination_func, export_query_model, plott_instance):
 
     def __init__(self):
         # Simple reason why we use it here is that it allows us to
@@ -86,7 +87,7 @@ class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, pati
         # Enable buttons for Trend tab
         self.trend_find_patient_bttn.clicked.connect(self.trend_find_patient)
         # Call plot and define variables
-        self.trend_plot_button.clicked.connect(lambda: do_what_i_want(self.trend_examinationtype_le.text(), self.trend_pesel_le.text()))
+        self.trend_plot_button.clicked.connect(lambda: self.data_parsing(self.trend_examinationtype_le.text(), self.trend_pesel_le.text()))
 
         # Allow file export with a click of a button
         self.export_tabledata_button.clicked.connect(lambda: self.export_query_examination_data(self.queryexamination_querymodel))
@@ -95,21 +96,22 @@ class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, pati
         # Show the gui layout
         self.show()
 
-
     def trend_find_patient(self):
 
         # Reset table before new search
         self.queryexamination_querymodel.setQuery("call DataVisualization_reset")
         self.trend_pesel = self.trend_pesel_le.text()
+        # Find patient
         self.trend_findpatient_querymodel.setQuery("call FindPatient_OR('', '', '', '', '', '', '', '', '{}')".format(self.trend_pesel))
         self.trend_patient_table.setModel(self.trend_findpatient_querymodel)
         self.trend_patient_table.resizeColumnsToContents()
 
+        # Find patient's examinations
         self.trend_patient_examination_querymodel.setQuery("call DataVisualization_str('PESEL', '{}')".format(self.trend_pesel))
         self.trend_examinations_table.setModel(self.trend_patient_examination_querymodel)
         self.trend_examinations_table.resizeColumnsToContents()
-
-    #def trend_patient_parameter_plotting(self):
+        # export the data to file to be parsed later
+        self.export_query_examination_data(self.trend_patient_examination_querymodel, 'examination_' + self.trend_pesel)
 
     def closeEvent(self, event):
 
