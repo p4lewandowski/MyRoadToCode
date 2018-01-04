@@ -1,5 +1,7 @@
 class patient_credentials_func():
 
+    # Searching for patients is enabled with stored procedures on the server, not via querying
+
     def show_all_patients(self):
 
         #self.patienttable_tablemodel.select()

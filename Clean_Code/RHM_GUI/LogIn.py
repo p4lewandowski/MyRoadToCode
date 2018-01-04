@@ -8,7 +8,6 @@ from RHM_Frame.Application import MainWindow
 from SQL_Connector.mysql_connector import mysql_connector
 
 
-
 class LogInWindow(QWidget, mysql_connector):
     def __init__(self):
         super().__init__()
@@ -81,8 +80,7 @@ class LogInWindow(QWidget, mysql_connector):
             self.hide()
             self.new_connection = MainWindow()
 
-        # Else show incorrect credentials label
-        # show wrong credentials label
+        # Else show 'incorrect credentials' label
         else:
 
             login_status_label = QLabel("<font color='red'>Wrong Username or Password</font>")

@@ -29,7 +29,7 @@ class MainWindow(mysql_connector):
 
         # Generate random parameters
         # Do it some strict number of times
-        for i in range(0,100):
+        for i in range(0,101):
 
             fakesa = Faker()
             PESEL = randint(10000000000, 99999999999)
@@ -44,8 +44,9 @@ class MainWindow(mysql_connector):
             fakesa.postalcode()
             fakesa.phone_number()
 
-            patient_data = (PESEL, fakesa.birthdate, fakesa.name(), fakesa.last_name(), fakesa.gender, fakesa.country(), fakesa.city(), fakesa.postalcode(), fakesa.phone_number())
+            patient_data = (PESEL, fakesa.birthdate, fakesa.first_name(), fakesa.last_name(), fakesa.gender, fakesa.country(), fakesa.city(), fakesa.postalcode(), fakesa.phone_number())
 
+            # Inserting via query
             add_patient_query_string = 'INSERT INTO patientcredentials (PESEL,DateOfBirth, Name,SurName,Gender,Country,City,PostalCode,PhoneNumber) VALUES ' + str(patient_data)
             self.insert_data_query.exec_(add_patient_query_string)
 

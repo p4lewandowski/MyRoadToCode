@@ -1,14 +1,1 @@
 Name,Surname,PESEL,Examination Date,Examination Name,Systolic Pressure,Diastolic Pressure,Body Height,Body Weight,BMI,Heart Rate
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 15, 27)",Wellness,0,0,160,138,54,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 15, 32)",Wellness,0,0,162,105,40,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 15, 37)",Wellness,0,0,199,115,29,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 15, 42)",Wellness,0,0,194,139,37,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 15, 47)",Wellness,0,0,182,125,38,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 15, 52)",Wellness,0,0,180,110,34,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 15, 57)",Wellness,0,0,194,64,17,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 16, 2)",Wellness,0,0,161,132,51,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 16, 7)",Wellness,0,0,185,111,32,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 16, 12)",Wellness,0,0,171,81,28,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 16, 17)",Wellness,0,0,181,56,17,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 16, 22)",Wellness,0,0,191,86,24,0
-Paul Moore,Gonzales,65957022551,"PyQt5.QtCore.QDateTime(2018, 1, 4, 18, 16, 27)",Wellness,0,0,155,109,45,0

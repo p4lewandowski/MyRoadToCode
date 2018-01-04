@@ -16,8 +16,7 @@ class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, pati
                  export_query_model, visualization_plot, visualization_func_call):
 
     def __init__(self):
-        # Simple reason why we use it here is that it allows us to
-        # access variables, methods etc in the design.py file
+        # Enable access to inherieted variables, methods, classes etc.
         super(self.__class__, self).__init__() # Inheritance
 
         ################## Initialize the application ##################
@@ -95,6 +94,7 @@ class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, pati
         self.export_tabledata_button.clicked.connect(lambda: self.export_query_examination_data(self.queryexamination_querymodel))
         self.findpatient_export_button.clicked.connect(lambda: self.export_query_examination_data(self.findpatient_querymodel))
 
+
         # Show the gui layout
         self.show()
 
@@ -112,7 +112,6 @@ class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, pati
 
 if __name__ == '__main__':        # if we're running file directly and not importing it
     app = QApplication(sys.argv)  # A new instance of QApplication
-    form = MainWindow()  # We set the form to be our ExampleApp (design)
-    #form = MainWindow()
+    form = MainWindow()  # New instance of application
     form.show()  # Show the form
     app.exec_()  # and execute the app

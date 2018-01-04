@@ -4,6 +4,8 @@ from PyQt5.QtWidgets import QLabel
 
 class patient_examination_func():
 
+    # Search enabled using stored procedures
+
     def examination_add_criteria(self):
 
         # Get entered data
@@ -34,6 +36,8 @@ class patient_examination_func():
         self.criteria_index += 1
 
     def query_examination(self):
+
+        # Run stored procedures with entered data
         for i in self.prepared_criteria:
 
             if (i[0] == 'Name' or i[0] == 'Surname' or i[0] == 'Examination Date' or i[0] == 'Parameter Warning'):
