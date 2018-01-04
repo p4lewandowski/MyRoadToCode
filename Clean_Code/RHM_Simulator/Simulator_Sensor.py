@@ -1,13 +1,10 @@
 import sys
-
 from PyQt5.QtWidgets import QApplication #QApplication is required to make connection
 from PyQt5.QtSql import QSqlQuery
-
 from SQL_Connector.mysql_connector import mysql_connector
-
 from random import randint
-
 from datetime import datetime, timedelta
+import time
 
 
 
@@ -30,13 +27,16 @@ class MainWindow(mysql_connector):
         # Do it some strict number of times
         for i in range(0,5000):
 
+            time.sleep(5)
             # random examination type and patient id
-            examination_type = randint(1, 3)
-            patientID = randint(0, 100)
+            #examination_type = randint(1, 3)
+            examination_type = 1
+            #patientID = randint(0, 100)
+            patientID = 97
 
             # Random time, increasing by strict amount of time per iteration cycle
             examination_date = datetime.now()
-            examination_date = examination_date + timedelta(randint(10, 111))
+            #examination_date = examination_date + timedelta(randint(10, 111))
             examination_date = examination_date.strftime("%Y-%m-%d %H:%M:%S")
 
             if examination_type == 1:

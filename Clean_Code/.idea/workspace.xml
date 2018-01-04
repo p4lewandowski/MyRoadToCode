@@ -11,25 +11,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Visualization_PlotParameter.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RHM_DataVisualization/Visualization_PlotParameter.py">
+      <file leaf-file-name="Visualization_FunctionCalling.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RHM_DataVisualization/Visualization_FunctionCalling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-52">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="-459">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#77#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RHM_Frame/Application.py">
+      <file leaf-file-name="Visualization_SteadyPlot.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RHM_DataVisualization/Visualization_SteadyPlot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="95" column="29" lean-forward="true" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+            <state relative-caret-position="237">
+              <caret line="53" column="55" lean-forward="true" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,32 +38,8 @@
       <file leaf-file-name="LogIn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RHM_GUI/LogIn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="81" column="41" lean-forward="true" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XXXX.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XXXX.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-732">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding>
-                <element signature="e#1#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XXXXX.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XXXXX.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,27 +56,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>qsqlq</find>
-      <find>decom</find>
-      <find>call</find>
-      <find>exa</find>
-      <find>poland</find>
-      <find>examina</find>
-      <find>crite</find>
-      <find>name</find>
-      <find>reset</find>
-      <find>parse</find>
-      <find>examinatioN_table</find>
-      <find>query_examina</find>
-      <find>table_mo</find>
-      <find>examinationtable_tablemodel</find>
-      <find>queryexamination_querymodel</find>
-      <find>mysql</find>
-      <find>conne</find>
-      <find>db_</find>
-      <find>messa</find>
-      <find>log in</find>
-      <find>export</find>
       <find>patient_table</find>
       <find>examination</find>
       <find>some ti</find>
@@ -110,6 +65,27 @@
       <find>sql_q</find>
       <find>export_q</find>
       <find>self.expo</find>
+      <find>pese</find>
+      <find>figure</find>
+      <find>canva</find>
+      <find>ion</find>
+      <find>data_pars</find>
+      <find>show</find>
+      <find>plt</find>
+      <find>data_</find>
+      <find>data_par</find>
+      <find>data_pa</find>
+      <find>Qdi</find>
+      <find>plot</find>
+      <find>PESEL</find>
+      <find>qdia</find>
+      <find>pes</find>
+      <find>examination_parameter_plotting</find>
+      <find>figu</find>
+      <find>fig</find>
+      <find>len(</find>
+      <find>real</find>
+      <find>mdaet</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -135,15 +111,21 @@
         <option value="$PROJECT_DIR$/RHM_GUI/LogIn.py" />
         <option value="$PROJECT_DIR$/SQL_Tabs/SQL_PatientCredentials.py" />
         <option value="$PROJECT_DIR$/RHM_Simulator/Simulator_AddPatient.py" />
-        <option value="$PROJECT_DIR$/RHM_Simulator/Simulator_Sensor.py" />
-        <option value="$PROJECT_DIR$/XXXX.py" />
         <option value="$PROJECT_DIR$/XXX.py" />
         <option value="$PROJECT_DIR$/RHM_DataVisualization.py" />
-        <option value="$PROJECT_DIR$/RHM_DataVisualization/Visualization_RealTime.py" />
-        <option value="$PROJECT_DIR$/SQL_Tabs/SQL_QueryModelExport.py" />
         <option value="$PROJECT_DIR$/XXXXX.py" />
-        <option value="$PROJECT_DIR$/RHM_Frame/Application.py" />
+        <option value="$PROJECT_DIR$/SQL_Tabs/SQL_QueryModelExport.py" />
+        <option value="$PROJECT_DIR$/RHM_Simulator/Simulator_Sensor.py" />
         <option value="$PROJECT_DIR$/RHM_DataVisualization/Visualization_PlotParameter.py" />
+        <option value="$PROJECT_DIR$/RHM_DataVisualization/Visualization_DataParsing.py" />
+        <option value="$PROJECT_DIR$/RHM_DataVisualization/Visuzalization_RealtimePlot.py" />
+        <option value="$PROJECT_DIR$/RHM_DataVisualization/Visualization_RealTime.py" />
+        <option value="$PROJECT_DIR$/XXXXXX.py" />
+        <option value="$PROJECT_DIR$/RHM_DataVisualization/Visualization_RealtimePlot.py" />
+        <option value="$PROJECT_DIR$/XXXX.py" />
+        <option value="$PROJECT_DIR$/RHM_DataVisualization/Visualization_SteadyPlot.py" />
+        <option value="$PROJECT_DIR$/RHM_Frame/Application.py" />
+        <option value="$PROJECT_DIR$/RHM_DataVisualization/Visualization_FunctionCalling.py" />
       </list>
     </option>
   </component>
@@ -167,6 +149,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,35 +178,23 @@
               <item name="Clean_Code" type="462c0819:PsiDirectoryNode" />
               <item name="RHM_Simulator" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Clean_Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clean_Code" type="462c0819:PsiDirectoryNode" />
-              <item name="SQL_Connector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Clean_Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Clean_Code" type="462c0819:PsiDirectoryNode" />
-              <item name="SQL_Tabs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GitHub/KidneySegmentation_new/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nieudane próby" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Virneal\Documents\IFE\Bachelor_code\nieudane próby" />
       <recent name="C:\Users\Virneal\Documents\IFE\Bachelor_code\Clean_Code\RHM_DataVisualization" />
       <recent name="C:\Users\Virneal\Documents\IFE\Bachelor_code\Clean_Code\RHM_GUI" />
       <recent name="C:\Users\Virneal\Documents\IFE\Bachelor_code\Clean_Code\RHM_Simulator" />
       <recent name="C:\Users\Virneal\Documents\IFE\Bachelor_code\Clean_Code\RHM_Frame" />
-      <recent name="C:\Users\Virneal\Documents\IFE\Bachelor_code\Clean_Code\SQL_Tabs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -255,24 +227,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Visualization_PlotParameter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Simulator_Sensor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RHM_DataVisualization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RHM_Simulator" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Clean_Code" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RHM_DataVisualization/Visualization_PlotParameter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RHM_Simulator/Simulator_Sensor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="Visualization_RealTime" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Visualization_RealtimePlot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -284,7 +256,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Clean_Code" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RHM_DataVisualization/Visualization_RealTime.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Virneal\Documents\IFE\Bachelor_code\nieudane próby\Visualization_RealtimePlot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,7 +278,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="XXXXX" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="XXXXXX" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -318,25 +290,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Clean_Code" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XXXXX.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/XXXXXX.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.LogIn" />
-      <item index="1" class="java.lang.String" itemvalue="Python.XXXX" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Visualization_RealTime" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Visualization_PlotParameter" />
-      <item index="4" class="java.lang.String" itemvalue="Python.XXXXX" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Simulator_Sensor" />
+      <item index="2" class="java.lang.String" itemvalue="Python.XXXX" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Visualization_RealtimePlot" />
+      <item index="4" class="java.lang.String" itemvalue="Python.XXXXXX" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.LogIn" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Visualization_PlotParameter" />
-        <item index="2" class="java.lang.String" itemvalue="Python.XXXXX" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Visualization_RealTime" />
-        <item index="4" class="java.lang.String" itemvalue="Python.XXXX" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Simulator_Sensor" />
+        <item index="2" class="java.lang.String" itemvalue="Python.XXXX" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Visualization_RealtimePlot" />
+        <item index="4" class="java.lang.String" itemvalue="Python.XXXXXX" />
       </list>
     </recent_temporary>
   </component>
@@ -359,10 +331,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16232073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5026076" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5052151" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962963" sideWeight="0.49739245" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962963" sideWeight="0.49478486" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -380,59 +352,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RHM_Simulator/Simulator_Sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RHM_Simulator/Simulator_DataInsert.py" />
-    <entry file="file://$PROJECT_DIR$/SQL_Tabs/SQL_PatientCredentials.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RHM_Frame/Application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../GitHub/KidneySegmentation_new/dsa.py" />
-    <entry file="file://$PROJECT_DIR$/../../../GitHub/KidneySegmentation_new/auxiliary_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../GitHub/KidneySegmentation_new/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RHM_Simulator/Simulator_Sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="63" column="18" lean-forward="false" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RHM_Simulator/Simulator_DataInsert.py" />
     <entry file="file://$PROJECT_DIR$/SQL_Tabs/SQL_PatientCredentials.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -553,27 +482,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RHM_DataVisualization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RHM_GUI/ApplicationWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="899" column="84" lean-forward="false" selection-start-line="899" selection-start-column="84" selection-end-line="899" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/RHM_DataVisualization.py" />
     <entry file="file://$PROJECT_DIR$/RHM_Simulator/Simulator_AddPatient.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,17 +495,7 @@
         <state relative-caret-position="-476">
           <caret line="17" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RHM_DataVisualization/Visualization_RealTime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="59" lean-forward="true" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -601,22 +504,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationWindow2.py" />
+    <entry file="file://$PROJECT_DIR$/test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/matplotlib/backends/backend_qt5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SQL_Tabs/SQL_PatientCredentials.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="101" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="101" />
+        <state relative-caret-position="102">
+          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SQL_Tabs/SQL_QueryModelExport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="220">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -625,56 +540,119 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RHM_Simulator/Simulator_Sensor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="271">
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XXXX.py">
+    <entry file="file://$PROJECT_DIR$/../nieudane próby/Visualization_RealTime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-732">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="884">
+          <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
           <folding>
-            <element signature="e#1#19#0" expanded="true" />
+            <element signature="e#0#72#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RHM_DataVisualization/Visualization_DataParsing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XXXXX.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="306">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/matplotlib/backends/backend_qt5agg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RHM_GUI/LogIn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" column="41" lean-forward="true" selection-start-line="81" selection-start-column="41" selection-end-line="81" selection-end-column="41" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XXXXXX.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RHM_DataVisualization/Visualization_SteadyPlot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="53" column="55" lean-forward="true" selection-start-line="53" selection-start-column="55" selection-end-line="53" selection-end-column="55" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XXXX.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="40" />
+          <folding>
+            <element signature="e#1#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RHM_Frame/Application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="95" column="29" lean-forward="true" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
+        <state relative-caret-position="-1292">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RHM_DataVisualization/Visualization_PlotParameter.py">
+    <entry file="file://$PROJECT_DIR$/../nieudane próby/Visualization_RealtimePlot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-52">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="237">
+          <caret line="23" column="120" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="120" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RHM_GUI/ApplicationWindow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="905" column="53" lean-forward="false" selection-start-line="905" selection-start-column="53" selection-end-line="905" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RHM_DataVisualization/Visualization_FunctionCalling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
           </folding>
         </state>
       </provider>

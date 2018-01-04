@@ -1,0 +1,61 @@
+Name,Surname,PESEL,Examination Date,Examination Name,Systolic Pressure,Diastolic Pressure,Body Height,Body Weight,BMI,Heart Rate
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 22, 15, 20, 36)",Wellness,0,0,159,73,29,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 16, 15, 20, 41)",BloodPressure,102,67,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 9, 15, 20, 49)",Wellness,0,0,167,74,27,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 17, 15, 20, 49)",Wellness,0,0,196,111,29,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 18, 15, 20, 50)",Wellness,0,0,179,118,37,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 4, 15, 15, 20, 53)",BloodPressure,139,68,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 4, 6, 15, 20, 55)",BloodPressure,139,96,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 15, 15, 20, 55)",Heart Rate,0,0,0,0,0,62
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 20, 15, 20, 55)",Wellness,0,0,179,116,36,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 24, 15, 20, 57)",BloodPressure,101,92,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 31, 15, 20, 59)",Heart Rate,0,0,0,0,0,89
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 3, 15, 21)",BloodPressure,105,95,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 4, 2, 15, 21)",Wellness,0,0,155,105,44,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 4, 15, 21, 3)",BloodPressure,115,100,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 15, 15, 21, 6)",Heart Rate,0,0,0,0,0,65
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 13, 15, 21, 6)",Wellness,0,0,197,87,22,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 2, 15, 21, 13)",Heart Rate,0,0,0,0,0,97
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 6, 15, 21, 16)",Heart Rate,0,0,0,0,0,86
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 27, 15, 21, 17)",Wellness,0,0,169,137,48,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 4, 15, 15, 21, 17)",Heart Rate,0,0,0,0,0,75
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 14, 15, 21, 17)",BloodPressure,132,81,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 26, 15, 21, 21)",BloodPressure,104,90,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 5, 15, 21, 24)",BloodPressure,109,61,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 25, 15, 21, 24)",Wellness,0,0,199,128,32,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 15, 15, 21, 25)",BloodPressure,123,74,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 23, 15, 21, 25)",Wellness,0,0,158,51,20,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 30, 15, 21, 28)",BloodPressure,136,95,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 24, 15, 21, 29)",Heart Rate,0,0,0,0,0,96
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 17, 15, 21, 29)",Heart Rate,0,0,0,0,0,74
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 4, 13, 15, 21, 33)",Heart Rate,0,0,0,0,0,91
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 24, 15, 21, 34)",Wellness,0,0,183,45,13,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 24, 15, 21, 39)",Wellness,0,0,176,64,21,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 28, 15, 21, 39)",Heart Rate,0,0,0,0,0,75
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 17, 15, 21, 40)",BloodPressure,103,100,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 13, 15, 21, 40)",BloodPressure,124,91,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 1, 15, 21, 41)",Heart Rate,0,0,0,0,0,93
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 11, 15, 21, 41)",BloodPressure,115,93,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 17, 15, 21, 42)",Wellness,0,0,182,91,27,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 15, 15, 21, 45)",BloodPressure,126,87,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 28, 15, 21, 47)",BloodPressure,137,84,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 21, 15, 21, 48)",Heart Rate,0,0,0,0,0,63
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 4, 1, 15, 21, 51)",Heart Rate,0,0,0,0,0,83
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 10, 15, 21, 51)",Heart Rate,0,0,0,0,0,61
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 23, 15, 21, 55)",BloodPressure,135,82,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 4, 3, 15, 21, 58)",BloodPressure,116,86,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 15, 15, 22)",BloodPressure,115,83,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 14, 15, 22, 2)",Wellness,0,0,178,131,41,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 19, 15, 22, 5)",BloodPressure,135,92,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 4, 9, 15, 22, 6)",BloodPressure,135,78,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 12, 15, 22, 8)",BloodPressure,138,88,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 15, 15, 22, 10)",Wellness,0,0,167,92,33,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 14, 15, 22, 14)",Heart Rate,0,0,0,0,0,100
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 4, 15, 22, 14)",Heart Rate,0,0,0,0,0,62
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 3, 10, 15, 22, 14)",BloodPressure,114,61,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 4, 15, 15, 22, 15)",Heart Rate,0,0,0,0,0,84
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 17, 15, 22, 19)",BloodPressure,109,95,0,0,0,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 9, 15, 22, 22)",Heart Rate,0,0,0,0,0,99
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 1, 19, 15, 22, 22)",Wellness,0,0,195,135,36,0
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 4, 4, 15, 22, 26)",Heart Rate,0,0,0,0,0,71
+David Grimes,Cooper,83286830794,"PyQt5.QtCore.QDateTime(2018, 2, 25, 15, 22, 30)",Wellness,0,0,154,102,43,0

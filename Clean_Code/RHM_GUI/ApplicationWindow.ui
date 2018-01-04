@@ -94,11 +94,17 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>16777215</height>
+             </size>
+            </property>
             <property name="tabShape">
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>1</number>
+             <number>0</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideLeft</enum>
@@ -247,6 +253,12 @@
                    <verstretch>0</verstretch>
                   </sizepolicy>
                  </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>200</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
                  <property name="font">
                   <font>
                    <weight>75</weight>
@@ -268,6 +280,12 @@
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>200</width>
+                   <height>16777215</height>
+                  </size>
                  </property>
                  <property name="font">
                   <font>
@@ -291,6 +309,12 @@
                    <verstretch>0</verstretch>
                   </sizepolicy>
                  </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>200</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
                  <property name="font">
                   <font>
                    <weight>75</weight>
@@ -313,6 +337,12 @@
                    <verstretch>0</verstretch>
                   </sizepolicy>
                  </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>195</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
                 </widget>
                </item>
                <item row="10" column="0">
@@ -322,6 +352,12 @@
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>200</width>
+                   <height>16777215</height>
+                  </size>
                  </property>
                  <property name="font">
                   <font>
@@ -345,6 +381,12 @@
                    <verstretch>0</verstretch>
                   </sizepolicy>
                  </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>195</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
                 </widget>
                </item>
                <item row="5" column="0">
@@ -354,6 +396,12 @@
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>195</width>
+                   <height>16777215</height>
+                  </size>
                  </property>
                  <property name="sizeAdjustPolicy">
                   <enum>QComboBox::AdjustToContents</enum>
@@ -1578,6 +1626,12 @@
                    <verstretch>0</verstretch>
                   </sizepolicy>
                  </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>200</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
                  <property name="font">
                   <font>
                    <weight>75</weight>
@@ -1600,6 +1654,12 @@
                    <verstretch>0</verstretch>
                   </sizepolicy>
                  </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>195</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
                 </widget>
                </item>
                <item row="3" column="0">
@@ -1609,6 +1669,12 @@
                    <horstretch>0</horstretch>
                    <verstretch>0</verstretch>
                   </sizepolicy>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>195</width>
+                   <height>16777215</height>
+                  </size>
                  </property>
                  <item>
                   <property name="text">
@@ -1629,6 +1695,12 @@
                </item>
                <item row="0" column="0">
                 <widget class="QLabel" name="dateofbirth_label">
+                 <property name="maximumSize">
+                  <size>
+                   <width>200</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
                  <property name="font">
                   <font>
                    <weight>75</weight>
@@ -1791,13 +1863,13 @@
          <widget class="QGroupBox" name="examination_tab_main_layout">
           <property name="minimumSize">
            <size>
-            <width>350</width>
+            <width>0</width>
             <height>0</height>
            </size>
           </property>
           <property name="maximumSize">
            <size>
-            <width>350</width>
+            <width>300</width>
             <height>16777215</height>
            </size>
           </property>
@@ -1805,71 +1877,6 @@
            <string/>
           </property>
           <layout class="QGridLayout" name="gridLayout_6">
-           <item row="1" column="0">
-            <widget class="QLabel" name="criteria_box_label">
-             <property name="maximumSize">
-              <size>
-               <width>16777215</width>
-               <height>15</height>
-              </size>
-             </property>
-             <property name="font">
-              <font>
-               <pointsize>10</pointsize>
-               <weight>75</weight>
-               <bold>true</bold>
-              </font>
-             </property>
-             <property name="text">
-              <string>Selected Criteria</string>
-             </property>
-             <property name="alignment">
-              <set>Qt::AlignCenter</set>
-             </property>
-            </widget>
-           </item>
-           <item row="2" column="0" alignment="Qt::AlignTop">
-            <widget class="QScrollArea" name="scrollArea">
-             <property name="minimumSize">
-              <size>
-               <width>150</width>
-               <height>300</height>
-              </size>
-             </property>
-             <property name="maximumSize">
-              <size>
-               <width>330</width>
-               <height>16777215</height>
-              </size>
-             </property>
-             <property name="widgetResizable">
-              <bool>true</bool>
-             </property>
-             <widget class="QWidget" name="scrollAreaWidgetContents">
-              <property name="geometry">
-               <rect>
-                <x>0</x>
-                <y>0</y>
-                <width>328</width>
-                <height>298</height>
-               </rect>
-              </property>
-              <layout class="QGridLayout" name="gridLayout_2">
-               <item row="0" column="0">
-                <widget class="QGroupBox" name="criteria_container_groupbox">
-                 <property name="title">
-                  <string/>
-                 </property>
-                 <property name="alignment">
-                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-                 </property>
-                 <layout class="QVBoxLayout" name="verticalLayout"/>
-                </widget>
-               </item>
-              </layout>
-             </widget>
-            </widget>
-           </item>
            <item row="0" column="0">
             <widget class="QLabel" name="patient_examination_main_label">
              <property name="maximumSize">
@@ -1893,54 +1900,82 @@
              </property>
             </widget>
            </item>
-           <item row="6" column="0">
-            <widget class="QPushButton" name="export_tabledata_button">
-             <property name="text">
-              <string>Export</string>
-             </property>
-            </widget>
-           </item>
-           <item row="4" column="0">
-            <widget class="Line" name="line_3">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-            </widget>
-           </item>
-           <item row="5" column="0">
-            <widget class="QLabel" name="export_table_label">
+           <item row="1" column="0">
+            <widget class="QLabel" name="criteria_box_label">
              <property name="maximumSize">
               <size>
                <width>16777215</width>
-               <height>30</height>
+               <height>15</height>
               </size>
              </property>
              <property name="font">
               <font>
-               <pointsize>11</pointsize>
+               <pointsize>10</pointsize>
                <weight>75</weight>
                <bold>true</bold>
               </font>
              </property>
              <property name="text">
-              <string>Export Table</string>
+              <string>Selected Criteria</string>
              </property>
              <property name="alignment">
               <set>Qt::AlignCenter</set>
              </property>
             </widget>
            </item>
+           <item row="2" column="0">
+            <widget class="QScrollArea" name="scrollArea">
+             <property name="minimumSize">
+              <size>
+               <width>250</width>
+               <height>250</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>250</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="widgetResizable">
+              <bool>true</bool>
+             </property>
+             <widget class="QWidget" name="scrollAreaWidgetContents">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>248</width>
+                <height>272</height>
+               </rect>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_2">
+               <item row="0" column="0">
+                <widget class="QGroupBox" name="criteria_container_groupbox">
+                 <property name="title">
+                  <string/>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout"/>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
            <item row="3" column="0">
             <widget class="QGroupBox" name="modify_criteria_groupbox">
              <property name="minimumSize">
               <size>
-               <width>300</width>
+               <width>0</width>
                <height>0</height>
               </size>
              </property>
              <property name="maximumSize">
               <size>
-               <width>16777215</width>
+               <width>250</width>
                <height>250</height>
               </size>
              </property>
@@ -1954,7 +1989,7 @@
               <string/>
              </property>
              <layout class="QGridLayout" name="A">
-              <item row="3" column="0" colspan="5">
+              <item row="3" column="0" colspan="7">
                <widget class="QLabel" name="criteria_adding_label">
                 <property name="maximumSize">
                  <size>
@@ -1976,31 +2011,8 @@
                 </property>
                </widget>
               </item>
-              <item row="4" column="0">
-               <widget class="QLabel" name="criteria_parameter_label">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>15</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Parameter</string>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="3">
-               <widget class="QLineEdit" name="parameter_le">
-                <property name="maximumSize">
-                 <size>
-                  <width>90</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="4">
-               <widget class="QPushButton" name="examination_add_criteria_button">
+              <item row="13" column="1">
+               <widget class="QPushButton" name="examination_remove_criteria_button">
                 <property name="maximumSize">
                  <size>
                   <width>50</width>
@@ -2008,24 +2020,61 @@
                  </size>
                 </property>
                 <property name="text">
-                 <string>Add</string>
+                 <string>Remove</string>
                 </property>
                </widget>
               </item>
-              <item row="4" column="2">
-               <widget class="QLabel" name="criteria_operator_label">
+              <item row="1" column="0" colspan="7">
+               <widget class="QLabel" name="criteria_modify_label">
                 <property name="maximumSize">
                  <size>
                   <width>16777215</width>
-                  <height>15</height>
+                  <height>30</height>
                  </size>
                 </property>
+                <property name="font">
+                 <font>
+                  <pointsize>11</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
                 <property name="text">
-                 <string>Operator</string>
+                 <string>Add or remove criteria</string>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignCenter</set>
                 </property>
                </widget>
               </item>
-              <item row="9" column="0" colspan="5">
+              <item row="2" column="0" colspan="7">
+               <widget class="Line" name="line">
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="13" column="0">
+               <widget class="QLineEdit" name="criteria_removal_le">
+                <property name="maximumSize">
+                 <size>
+                  <width>80</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+               </widget>
+              </item>
+              <item row="10" column="0" colspan="7">
+               <widget class="Line" name="line_2">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="11" column="0" colspan="7">
                <widget class="QLabel" name="criteria_removal_label">
                 <property name="maximumSize">
                  <size>
@@ -2047,60 +2096,56 @@
                 </property>
                </widget>
               </item>
-              <item row="2" column="0" colspan="5">
-               <widget class="Line" name="line">
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-               </widget>
-              </item>
-              <item row="8" column="0" colspan="5">
-               <widget class="Line" name="line_2">
-                <property name="orientation">
-                 <enum>Qt::Horizontal</enum>
-                </property>
-               </widget>
-              </item>
-              <item row="6" column="2">
-               <widget class="QComboBox" name="operator_cb">
-                <property name="minimumSize">
-                 <size>
-                  <width>40</width>
-                  <height>0</height>
-                 </size>
-                </property>
+              <item row="6" column="0">
+               <widget class="QLabel" name="criteria_operator_label">
                 <property name="maximumSize">
                  <size>
-                  <width>30</width>
+                  <width>16777215</width>
+                  <height>15</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Operator</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="1">
+               <widget class="QLineEdit" name="parameter_le">
+                <property name="maximumSize">
+                 <size>
+                  <width>90</width>
                   <height>16777215</height>
                  </size>
                 </property>
-                <item>
-                 <property name="text">
-                  <string/>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>&gt;</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>&lt;</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>=</string>
-                 </property>
-                </item>
                </widget>
               </item>
-              <item row="6" column="0">
+              <item row="5" column="0">
+               <widget class="QLabel" name="criteria_parameter_label">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>15</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Parameter</string>
+                </property>
+               </widget>
+              </item>
+              <item row="7" column="0">
+               <widget class="QLabel" name="criteria_parameter_label_2">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>15</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>Parameter Value</string>
+                </property>
+               </widget>
+              </item>
+              <item row="5" column="1">
                <widget class="QComboBox" name="parameter_cb">
                 <property name="minimumSize">
                  <size>
@@ -2171,30 +2216,7 @@
                 </item>
                </widget>
               </item>
-              <item row="11" column="1">
-               <widget class="QPushButton" name="examination_remove_criteria_button">
-                <property name="maximumSize">
-                 <size>
-                  <width>50</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-                <property name="text">
-                 <string>Remove</string>
-                </property>
-               </widget>
-              </item>
-              <item row="11" column="0">
-               <widget class="QLineEdit" name="criteria_removal_le">
-                <property name="maximumSize">
-                 <size>
-                  <width>80</width>
-                  <height>16777215</height>
-                 </size>
-                </property>
-               </widget>
-              </item>
-              <item row="7" column="3" colspan="2">
+              <item row="9" column="0">
                <widget class="QPushButton" name="examination_search_button">
                 <property name="font">
                  <font>
@@ -2207,7 +2229,43 @@
                 </property>
                </widget>
               </item>
-              <item row="7" column="0" colspan="2">
+              <item row="6" column="1">
+               <widget class="QComboBox" name="operator_cb">
+                <property name="minimumSize">
+                 <size>
+                  <width>40</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>30</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <item>
+                 <property name="text">
+                  <string/>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>&gt;</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>&lt;</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>=</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item row="9" column="1">
                <widget class="QPushButton" name="examination_search_reset_button">
                 <property name="font">
                  <font>
@@ -2220,43 +2278,57 @@
                 </property>
                </widget>
               </item>
-              <item row="1" column="0" colspan="5">
-               <widget class="QLabel" name="criteria_modify_label">
+              <item row="8" column="0">
+               <widget class="QPushButton" name="examination_add_criteria_button">
                 <property name="maximumSize">
                  <size>
-                  <width>16777215</width>
-                  <height>30</height>
-                 </size>
-                </property>
-                <property name="font">
-                 <font>
-                  <pointsize>11</pointsize>
-                  <weight>75</weight>
-                  <bold>true</bold>
-                 </font>
-                </property>
-                <property name="text">
-                 <string>Add or remove criteria</string>
-                </property>
-                <property name="alignment">
-                 <set>Qt::AlignCenter</set>
-                </property>
-               </widget>
-              </item>
-              <item row="4" column="3" colspan="2">
-               <widget class="QLabel" name="criteria_parameter_label_2">
-                <property name="maximumSize">
-                 <size>
-                  <width>16777215</width>
-                  <height>15</height>
+                  <width>50</width>
+                  <height>16777215</height>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Parameter Value</string>
+                 <string>Add</string>
                 </property>
                </widget>
               </item>
              </layout>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="Line" name="line_3">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="export_table_label">
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <pointsize>11</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="text">
+              <string>Export Table</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QPushButton" name="export_tabledata_button">
+             <property name="text">
+              <string>Export</string>
+             </property>
             </widget>
            </item>
           </layout>
@@ -2269,8 +2341,95 @@
         <string>Trend</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_9">
-        <item row="1" column="0">
+        <item row="0" column="0">
          <layout class="QGridLayout" name="trend_layout">
+          <item row="12" column="2">
+           <widget class="QLabel" name="label_4">
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Type Examination Type</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2" rowspan="3">
+           <widget class="QLabel" name="label_3">
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Type PESEL number</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="16" column="2" colspan="2">
+           <spacer name="verticalSpacer_5">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Fixed</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>5</width>
+              <height>5</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="4" column="3" rowspan="8">
+           <widget class="QTableView" name="trend_patient_table">
+            <property name="minimumSize">
+             <size>
+              <width>950</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>80</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="2" rowspan="3">
+           <widget class="QLineEdit" name="trend_pesel_le">
+            <property name="text">
+             <string>65957022551</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="2" rowspan="2">
+           <widget class="QPushButton" name="trend_find_patient_bttn">
+            <property name="text">
+             <string>Find Patient</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="2">
+           <widget class="QPushButton" name="trend_plot_button">
+            <property name="text">
+             <string>Plot Examination Parameters</string>
+            </property>
+           </widget>
+          </item>
           <item row="0" column="2" colspan="2">
            <widget class="QLabel" name="label_5">
             <property name="font">
@@ -2288,126 +2447,22 @@
             </property>
            </widget>
           </item>
-          <item row="8" column="2">
-           <spacer name="verticalSpacer_2">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>5</width>
-              <height>5</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item row="9" column="2">
-           <widget class="QLabel" name="label_4">
-            <property name="font">
-             <font>
-              <pointsize>9</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
-            <property name="text">
-             <string>Type Examination Type</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-           </widget>
-          </item>
-          <item row="7" column="2">
-           <widget class="QPushButton" name="trend_find_patient_bttn">
-            <property name="text">
-             <string>Find Patient</string>
-            </property>
-           </widget>
-          </item>
-          <item row="4" column="2">
-           <spacer name="verticalSpacer">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>5</width>
-              <height>5</height>
-             </size>
-            </property>
-           </spacer>
-          </item>
-          <item row="15" column="2" colspan="2">
+          <item row="17" column="2" colspan="2">
            <widget class="QTableView" name="trend_examinations_table"/>
           </item>
-          <item row="12" column="2" rowspan="2">
-           <widget class="QPushButton" name="trend_plot_button">
+          <item row="13" column="2">
+           <widget class="QLineEdit" name="trend_examinationtype_le">
             <property name="text">
-             <string>Plot Examination Parameters</string>
+             <string>BMI</string>
             </property>
            </widget>
           </item>
-          <item row="6" column="2">
-           <widget class="QLineEdit" name="trend_pesel_le"/>
-          </item>
-          <item row="5" column="3" rowspan="9">
-           <widget class="QTableView" name="trend_patient_table">
-            <property name="minimumSize">
-             <size>
-              <width>900</width>
-              <height>0</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>150</height>
-             </size>
-            </property>
-           </widget>
-          </item>
-          <item row="10" column="2">
-           <widget class="QLineEdit" name="trend_examinationtype_le"/>
-          </item>
-          <item row="5" column="2">
-           <widget class="QLabel" name="label_3">
-            <property name="font">
-             <font>
-              <pointsize>9</pointsize>
-              <weight>75</weight>
-              <bold>true</bold>
-             </font>
-            </property>
+          <item row="15" column="2">
+           <widget class="QRadioButton" name="trend_realtime_rb">
             <property name="text">
-             <string>Type PESEL number</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
+             <string>Enable Real-Time plotting</string>
             </property>
            </widget>
-          </item>
-          <item row="14" column="2" colspan="2">
-           <spacer name="verticalSpacer_5">
-            <property name="orientation">
-             <enum>Qt::Vertical</enum>
-            </property>
-            <property name="sizeType">
-             <enum>QSizePolicy::Fixed</enum>
-            </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>5</width>
-              <height>5</height>
-             </size>
-            </property>
-           </spacer>
           </item>
          </layout>
         </item>
