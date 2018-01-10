@@ -34,7 +34,7 @@ class MainWindow(QMainWindow, Ui_main_app_window, patient_credentials_func, pati
         ################## Table Model Creation ##################
         # Creating table model for patientdata
         self.patienttable_tablemodel = QSqlTableModel()
-        self.patienttable_tablemodel.setTable('patientdata')
+        self.patienttable_tablemodel.setTable('patientdata_view')
         # Make it default to show the table
         self.patienttable_tablemodel.select()
         self.patient_table.setModel(self.patienttable_tablemodel)

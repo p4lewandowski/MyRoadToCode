@@ -34,7 +34,7 @@
       </property>
       <widget class="QWidget" name="general_tab">
        <attribute name="title">
-        <string>General</string>
+        <string>Welcome</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_7">
         <item row="0" column="0">
@@ -104,7 +104,7 @@
              <enum>QTabWidget::Rounded</enum>
             </property>
             <property name="currentIndex">
-             <number>0</number>
+             <number>1</number>
             </property>
             <property name="elideMode">
              <enum>Qt::ElideLeft</enum>
@@ -443,7 +443,7 @@
                  </item>
                  <item>
                   <property name="text">
-                   <string>Antarctica%</string>
+                   <string>Antarctica</string>
                   </property>
                  </item>
                  <item>
@@ -558,7 +558,7 @@
                  </item>
                  <item>
                   <property name="text">
-                   <string>British Indian Ocean Territory%</string>
+                   <string>British Indian Ocean Territory</string>
                   </property>
                  </item>
                  <item>
@@ -1734,12 +1734,13 @@
            <widget class="QRadioButton" name="enable_a_search">
             <property name="font">
              <font>
+              <pointsize>7</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
             </property>
             <property name="text">
-             <string>Find Many</string>
+             <string>Find many patients meeting criteria</string>
             </property>
             <property name="checked">
              <bool>true</bool>
@@ -2196,22 +2197,17 @@
                 </item>
                 <item>
                  <property name="text">
-                  <string>Patient Height</string>
+                  <string>Body Height</string>
                  </property>
                 </item>
                 <item>
                  <property name="text">
-                  <string>Patient Weight</string>
+                  <string>Body Weight</string>
                  </property>
                 </item>
                 <item>
                  <property name="text">
                   <string>BMI</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Parameter Warning</string>
                  </property>
                 </item>
                </widget>
@@ -2338,7 +2334,7 @@
       </widget>
       <widget class="QWidget" name="trend_tab">
        <attribute name="title">
-        <string>Trend</string>
+        <string>Patient Data Visualization</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_9">
         <item row="0" column="0">
@@ -2412,7 +2408,7 @@
           <item row="7" column="2" rowspan="3">
            <widget class="QLineEdit" name="trend_pesel_le">
             <property name="text">
-             <string>65957022551</string>
+             <string/>
             </property>
            </widget>
           </item>
@@ -2453,25 +2449,20 @@
           <item row="13" column="2">
            <widget class="QLineEdit" name="trend_examinationtype_le">
             <property name="text">
-             <string>BMI</string>
+             <string/>
             </property>
            </widget>
           </item>
           <item row="15" column="2">
            <widget class="QRadioButton" name="trend_realtime_rb">
             <property name="text">
-             <string>Enable Real-Time plotting</string>
+             <string>Enable Real Time Plotting</string>
             </property>
            </widget>
           </item>
          </layout>
         </item>
        </layout>
-      </widget>
-      <widget class="QWidget" name="statistics_tab">
-       <attribute name="title">
-        <string>Statistics</string>
-       </attribute>
       </widget>
      </widget>
     </item>
