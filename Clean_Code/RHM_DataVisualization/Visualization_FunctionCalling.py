@@ -52,7 +52,7 @@ class visualization_func_call(QDialog):
         # export the data to file to be parsed later
         self.export_query_examination_data(self.trend_patient_examination_querymodel, 'examination_' + self.trend_pesel)
 
-    # Plotting 'stable' data
+    ################## Plotting 'stable' data ##################
     def stable_parameter_plot(self):
 
         new_plot = visualization_plot()
@@ -60,7 +60,7 @@ class visualization_func_call(QDialog):
         new_plot.plot_plotting(ex_dates, ex_param, self.trend_examinationtype_le.text(), self.trend_pesel_le.text())
         new_plot.show()
 
-    # Real Time plotting
+    ################## Real Time plotting ##################
     def realtime_parameter_plot(self):
 
         # Otherwise multiple figures may appear
@@ -76,7 +76,7 @@ class visualization_func_call(QDialog):
         self.plotter, = ax.plot(ex__dates, ex__param, color='#EE6666', linewidth=4)
 
         ################## Plotting Properties Part ##################
-        ax.xaxis.set_major_formatter(mdates.DateFormatter('%m/%d/%Y %H:%M:%S'))
+        ax.xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y %H:%M:%S'))
         ax.xaxis.set_major_locator(mdates.DayLocator())
 
         # Set visuals and labels

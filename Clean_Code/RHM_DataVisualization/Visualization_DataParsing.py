@@ -1,14 +1,17 @@
 import csv
-
 import numpy as np
-
 from datetime import datetime
+import os
 
 def data_parsing(examination_name, PESEL):
 
     ########################## Data Parsing ##########################
+
+    # Set proper path to file
+    exporteddata_dir_path = os.path.normpath(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..//RHM_Output//examination_"))
+
     a = []
-    with open ('C:\\Users\\Virneal\\Documents\\IFE\\Bachelor_code\\Clean_Code\\RHM_GUI\\examination_' + PESEL + '.csv', 'rt') as csvfile:
+    with open (exporteddata_dir_path + PESEL + '.csv', 'rt') as csvfile:
         csv_reader = csv.reader(csvfile, delimiter=',')
         for row in csv_reader:
             a.append(row)

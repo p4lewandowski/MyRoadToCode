@@ -1,10 +1,18 @@
 import csv
 from PyQt5 import QtCore
 import numpy as np
+import os
 
 class export_query_model:
 
     def export_query_examination_data(self, model, name = 'RHM_export'):
+
+        # Set Paths
+        default_path = os.path.join(os.path.dirname(os.path.realpath(__file__)))
+
+        output_path = os.path.normpath(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..//RHM_Output"))
+        os.chdir(output_path)
+
         # Create and start writing the data to the file
         self.export_file = open(name +'.csv', 'wt', newline='')
         self.csv_writer = csv.writer(self.export_file)
@@ -37,3 +45,5 @@ class export_query_model:
 
         # Close writing to the file
         self.export_file.close()
+        # Change path to the previous one
+        os.chdir(default_path)

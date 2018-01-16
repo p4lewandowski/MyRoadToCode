@@ -32,7 +32,7 @@ class visualization_plot(QDialog):
         self.setLayout(layout)
 
         ################## Plotting Properties Part ##################
-        plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%m/%d/%Y %H:%M:%S'))
+        plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%d/%m/%Y %H:%M:%S'))
         plt.gca().xaxis.set_major_locator(mdates.DayLocator())
         plt.gcf().autofmt_xdate()
         # Set visuals and labels

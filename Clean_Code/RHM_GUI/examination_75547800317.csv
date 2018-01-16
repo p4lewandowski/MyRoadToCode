@@ -1,0 +1,61 @@
+Name,Surname,PESEL,Examination Date,Examination Name,Systolic Pressure,Diastolic Pressure,Body Height,Body Weight,BMI,Heart Rate
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 21, 21, 44, 34)",Heart Rate,0,0,0,0,0,72
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 1, 27, 21, 44, 34)",BloodPressure,107,92,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 5, 21, 44, 35)",Heart Rate,0,0,0,0,0,83
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 13, 21, 44, 36)",BloodPressure,132,75,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 14, 21, 44, 38)",BloodPressure,138,77,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 12, 21, 44, 40)",Wellness,0,0,185,97,28,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 28, 21, 44, 44)",Heart Rate,0,0,0,0,0,68
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 12, 21, 44, 44)",BloodPressure,132,87,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 9, 21, 44, 45)",Wellness,0,0,170,86,30,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 11, 21, 44, 48)",Heart Rate,0,0,0,0,0,89
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 14, 21, 44, 56)",Wellness,0,0,168,81,29,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 20, 21, 45, 1)",BloodPressure,140,94,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 5, 1, 21, 45, 9)",Wellness,0,0,174,78,26,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 30, 21, 45, 13)",Wellness,0,0,189,67,19,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 26, 21, 45, 14)",BloodPressure,121,83,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 18, 21, 45, 15)",Wellness,0,0,192,46,12,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 11, 21, 45, 23)",Wellness,0,0,168,49,17,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 19, 21, 45, 23)",BloodPressure,109,89,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 1, 21, 45, 26)",Wellness,0,0,159,80,32,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 13, 21, 45, 28)",BloodPressure,106,66,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 28, 21, 45, 30)",BloodPressure,125,65,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 10, 21, 45, 35)",BloodPressure,102,75,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 25, 21, 45, 35)",Wellness,0,0,190,49,14,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 19, 21, 45, 37)",BloodPressure,139,62,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 7, 21, 45, 37)",Wellness,0,0,170,80,28,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 31, 21, 45, 38)",Wellness,0,0,162,80,30,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 19, 21, 45, 40)",Heart Rate,0,0,0,0,0,86
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 22, 21, 45, 40)",Heart Rate,0,0,0,0,0,73
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 22, 21, 45, 41)",BloodPressure,103,87,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 28, 21, 45, 43)",Wellness,0,0,189,115,32,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 1, 31, 21, 45, 43)",Heart Rate,0,0,0,0,0,93
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 14, 21, 45, 44)",Heart Rate,0,0,0,0,0,64
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 11, 21, 45, 44)",Wellness,0,0,177,139,44,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 1, 21, 45, 46)",Wellness,0,0,199,96,24,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 5, 1, 21, 45, 51)",Heart Rate,0,0,0,0,0,70
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 10, 21, 45, 52)",BloodPressure,133,61,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 22, 21, 45, 52)",Wellness,0,0,193,72,19,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 1, 28, 21, 45, 54)",BloodPressure,132,70,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 1, 26, 21, 45, 54)",BloodPressure,104,90,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 27, 21, 45, 58)",Heart Rate,0,0,0,0,0,95
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 30, 21, 45, 59)",BloodPressure,107,91,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 29, 21, 46)",Wellness,0,0,154,102,43,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 18, 21, 46)",Heart Rate,0,0,0,0,0,93
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 2, 21, 46, 4)",BloodPressure,131,95,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 1, 31, 21, 46, 4)",Heart Rate,0,0,0,0,0,94
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 17, 21, 46, 7)",Wellness,0,0,184,102,30,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 20, 21, 46, 12)",Wellness,0,0,164,137,51,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 2, 21, 46, 12)",BloodPressure,128,63,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 26, 21, 46, 13)",Wellness,0,0,194,62,16,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 6, 21, 46, 18)",Heart Rate,0,0,0,0,0,66
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 2, 7, 21, 46, 18)",Wellness,0,0,178,97,31,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 17, 21, 46, 22)",BloodPressure,126,84,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 1, 21, 46, 22)",Heart Rate,0,0,0,0,0,91
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 18, 21, 46, 23)",Wellness,0,0,180,96,30,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 5, 21, 46, 24)",Heart Rate,0,0,0,0,0,73
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 8, 21, 46, 25)",Heart Rate,0,0,0,0,0,81
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 12, 21, 46, 26)",Heart Rate,0,0,0,0,0,68
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 3, 31, 21, 46, 29)",BloodPressure,102,69,0,0,0,0
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 16, 21, 46, 29)",Heart Rate,0,0,0,0,0,99
+Robert,Gardner,75547800317,"PyQt5.QtCore.QDateTime(2018, 4, 15, 21, 46, 29)",BloodPressure,104,67,0,0,0,0

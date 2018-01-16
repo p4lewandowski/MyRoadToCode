@@ -1,0 +1,63 @@
+Name,Surname,PESEL,Examination Date,Examination Name,Systolic Pressure,Diastolic Pressure,Body Height,Body Weight,BMI,Heart Rate
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 10, 19, 26, 6)",Heart Rate,0,0,0,0,0,87
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 4, 19, 26, 6)",Heart Rate,0,0,0,0,0,63
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 1, 19, 26, 7)",Heart Rate,0,0,0,0,0,67
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 26, 19, 26, 7)",Heart Rate,0,0,0,0,0,89
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 3, 19, 26, 8)",Heart Rate,0,0,0,0,0,61
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 27, 19, 26, 8)",Wellness,0,0,181,120,37,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 7, 19, 26, 10)",Wellness,0,0,191,53,15,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 10, 19, 26, 10)",Heart Rate,0,0,0,0,0,61
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 12, 19, 26, 10)",BloodPressure,140,85,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 7, 19, 26, 11)",Wellness,0,0,193,88,24,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 2, 19, 26, 12)",Wellness,0,0,199,57,14,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 30, 19, 26, 13)",BloodPressure,104,78,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 21, 19, 26, 15)",Wellness,0,0,167,111,40,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 7, 19, 26, 20)",Wellness,0,0,154,90,38,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 10, 19, 26, 30)",Wellness,0,0,170,140,48,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 26, 19, 26, 31)",BloodPressure,111,80,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 25, 19, 26, 33)",BloodPressure,123,79,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 16, 19, 26, 34)",Heart Rate,0,0,0,0,0,68
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 6, 19, 26, 35)",Wellness,0,0,184,102,30,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 16, 19, 26, 41)",Heart Rate,0,0,0,0,0,71
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 25, 19, 26, 42)",Wellness,0,0,163,51,19,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 7, 19, 26, 42)",Heart Rate,0,0,0,0,0,99
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 13, 19, 26, 48)",Heart Rate,0,0,0,0,0,67
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 13, 19, 26, 49)",BloodPressure,130,70,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 31, 19, 26, 52)",Heart Rate,0,0,0,0,0,99
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 11, 19, 26, 52)",BloodPressure,130,65,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 16, 19, 26, 53)",BloodPressure,120,72,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 31, 19, 26, 53)",BloodPressure,109,85,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 22, 19, 26, 56)",Wellness,0,0,187,106,30,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 30, 19, 26, 56)",BloodPressure,121,85,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 3, 19, 27)",BloodPressure,134,63,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 5, 5, 19, 27, 3)",Heart Rate,0,0,0,0,0,97
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 1, 27, 19, 27, 7)",BloodPressure,102,76,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 12, 19, 27, 8)",Heart Rate,0,0,0,0,0,68
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 16, 19, 27, 11)",Wellness,0,0,160,71,28,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 16, 19, 27, 12)",Wellness,0,0,189,130,36,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 7, 19, 27, 13)",BloodPressure,103,69,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 24, 19, 27, 13)",BloodPressure,140,66,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 24, 19, 27, 18)",Wellness,0,0,164,57,21,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 8, 19, 27, 18)",Heart Rate,0,0,0,0,0,66
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 25, 19, 27, 18)",Heart Rate,0,0,0,0,0,91
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 27, 19, 27, 21)",BloodPressure,117,98,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 4, 19, 27, 21)",Heart Rate,0,0,0,0,0,71
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 11, 19, 27, 21)",BloodPressure,123,89,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 30, 19, 27, 23)",BloodPressure,102,61,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 12, 19, 27, 24)",Heart Rate,0,0,0,0,0,66
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 10, 19, 27, 26)",Wellness,0,0,187,133,38,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 29, 19, 27, 27)",Wellness,0,0,180,54,17,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 24, 19, 27, 29)",Wellness,0,0,155,74,31,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 1, 19, 27, 32)",Heart Rate,0,0,0,0,0,79
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 17, 19, 27, 35)",Wellness,0,0,165,115,42,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 25, 19, 27, 37)",Wellness,0,0,195,99,26,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 27, 19, 27, 38)",Wellness,0,0,172,67,23,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 6, 19, 27, 40)",Heart Rate,0,0,0,0,0,80
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 30, 19, 27, 42)",Heart Rate,0,0,0,0,0,76
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 14, 19, 27, 46)",Heart Rate,0,0,0,0,0,73
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 13, 19, 27, 46)",Heart Rate,0,0,0,0,0,74
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 23, 19, 27, 53)",BloodPressure,127,74,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 22, 19, 27, 53)",Heart Rate,0,0,0,0,0,82
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 3, 11, 19, 27, 55)",BloodPressure,107,82,0,0,0,0
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 4, 18, 19, 27, 58)",Heart Rate,0,0,0,0,0,84
+Courtney,Smith,80275157379,"PyQt5.QtCore.QDateTime(2018, 2, 10, 19, 28)",Heart Rate,0,0,0,0,0,93

@@ -1,0 +1,142 @@
+Name,Surname,PESEL,Examination Date,Examination Name,Systolic Pressure,Diastolic Pressure,Body Height,Body Weight,BMI,Heart Rate
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 30, 19, 34, 35)",Heart Rate,0,0,0,0,0,85
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 34, 37)",Heart Rate,0,0,0,0,0,76
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 13, 19, 34, 39)",Heart Rate,0,0,0,0,0,79
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 23, 19, 34, 41)",Heart Rate,0,0,0,0,0,79
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 7, 19, 34, 43)",Heart Rate,0,0,0,0,0,96
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 34, 45)",Heart Rate,0,0,0,0,0,77
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 13, 19, 34, 47)",Heart Rate,0,0,0,0,0,92
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 12, 19, 34, 49)",Heart Rate,0,0,0,0,0,63
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 5, 19, 34, 51)",Heart Rate,0,0,0,0,0,84
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 5, 19, 34, 53)",Heart Rate,0,0,0,0,0,74
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 6, 19, 34, 55)",Heart Rate,0,0,0,0,0,70
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 23, 19, 34, 57)",Heart Rate,0,0,0,0,0,74
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 16, 19, 34, 59)",Heart Rate,0,0,0,0,0,74
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 14, 19, 35, 1)",Heart Rate,0,0,0,0,0,67
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 6, 19, 35, 3)",Heart Rate,0,0,0,0,0,77
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 28, 19, 35, 5)",Heart Rate,0,0,0,0,0,70
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 7, 19, 35, 8)",Heart Rate,0,0,0,0,0,89
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 31, 19, 35, 10)",Heart Rate,0,0,0,0,0,91
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 10, 19, 35, 12)",Heart Rate,0,0,0,0,0,84
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 5, 6, 19, 35, 14)",Heart Rate,0,0,0,0,0,82
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 6, 19, 35, 16)",Heart Rate,0,0,0,0,0,81
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 11, 19, 35, 18)",Heart Rate,0,0,0,0,0,65
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 13, 19, 35, 20)",Heart Rate,0,0,0,0,0,67
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 20, 19, 35, 22)",Heart Rate,0,0,0,0,0,87
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 29, 19, 35, 24)",Heart Rate,0,0,0,0,0,85
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 20, 19, 35, 26)",Heart Rate,0,0,0,0,0,72
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 10, 19, 35, 28)",Heart Rate,0,0,0,0,0,68
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 28, 19, 35, 30)",Heart Rate,0,0,0,0,0,96
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 26, 19, 35, 32)",Heart Rate,0,0,0,0,0,72
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 27, 19, 35, 34)",Heart Rate,0,0,0,0,0,100
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 23, 19, 35, 36)",Heart Rate,0,0,0,0,0,78
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 26, 19, 35, 38)",Heart Rate,0,0,0,0,0,61
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 15, 19, 35, 40)",Heart Rate,0,0,0,0,0,82
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 26, 19, 35, 42)",Heart Rate,0,0,0,0,0,94
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 30, 19, 35, 44)",Heart Rate,0,0,0,0,0,94
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 4, 19, 35, 46)",Heart Rate,0,0,0,0,0,67
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 26, 19, 35, 48)",Heart Rate,0,0,0,0,0,99
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 1, 19, 35, 50)",Heart Rate,0,0,0,0,0,81
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 24, 19, 35, 52)",Heart Rate,0,0,0,0,0,87
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 26, 19, 35, 54)",Heart Rate,0,0,0,0,0,71
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 15, 19, 35, 56)",Heart Rate,0,0,0,0,0,98
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 5, 19, 35, 58)",Heart Rate,0,0,0,0,0,61
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 3, 19, 36)",Heart Rate,0,0,0,0,0,67
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 28, 19, 36, 2)",Heart Rate,0,0,0,0,0,73
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 29, 19, 36, 4)",Heart Rate,0,0,0,0,0,76
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 10, 19, 36, 6)",Heart Rate,0,0,0,0,0,60
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 11, 19, 36, 8)",Heart Rate,0,0,0,0,0,89
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 2, 19, 36, 10)",Heart Rate,0,0,0,0,0,76
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 28, 19, 36, 12)",Heart Rate,0,0,0,0,0,93
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 2, 19, 36, 14)",Heart Rate,0,0,0,0,0,97
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 27, 19, 36, 16)",Heart Rate,0,0,0,0,0,96
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 36, 18)",Heart Rate,0,0,0,0,0,97
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 21, 19, 36, 20)",Heart Rate,0,0,0,0,0,61
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 9, 19, 36, 22)",Heart Rate,0,0,0,0,0,82
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 9, 19, 36, 24)",Heart Rate,0,0,0,0,0,100
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 23, 19, 36, 26)",Heart Rate,0,0,0,0,0,74
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 5, 19, 36, 28)",Heart Rate,0,0,0,0,0,68
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 24, 19, 36, 30)",Heart Rate,0,0,0,0,0,72
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 21, 19, 36, 32)",Heart Rate,0,0,0,0,0,81
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 19, 19, 36, 34)",Heart Rate,0,0,0,0,0,85
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 26, 19, 36, 36)",Heart Rate,0,0,0,0,0,79
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 4, 19, 36, 38)",Heart Rate,0,0,0,0,0,94
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 5, 19, 36, 41)",Heart Rate,0,0,0,0,0,90
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 5, 19, 36, 43)",Heart Rate,0,0,0,0,0,100
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 7, 19, 36, 45)",Heart Rate,0,0,0,0,0,63
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 15, 19, 36, 47)",Heart Rate,0,0,0,0,0,82
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 15, 19, 36, 49)",Heart Rate,0,0,0,0,0,62
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 11, 19, 36, 51)",Heart Rate,0,0,0,0,0,86
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 1, 19, 36, 53)",Heart Rate,0,0,0,0,0,70
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 5, 3, 19, 36, 55)",Heart Rate,0,0,0,0,0,80
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 17, 19, 36, 57)",Heart Rate,0,0,0,0,0,65
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 6, 19, 36, 59)",Heart Rate,0,0,0,0,0,86
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 28, 19, 37, 1)",Heart Rate,0,0,0,0,0,97
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 2, 19, 37, 3)",Heart Rate,0,0,0,0,0,83
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 2, 19, 37, 5)",Heart Rate,0,0,0,0,0,72
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 12, 19, 37, 7)",Heart Rate,0,0,0,0,0,69
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 31, 19, 37, 9)",Heart Rate,0,0,0,0,0,62
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 10, 19, 37, 11)",Heart Rate,0,0,0,0,0,76
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 6, 19, 37, 13)",Heart Rate,0,0,0,0,0,73
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 20, 19, 37, 15)",Heart Rate,0,0,0,0,0,70
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 8, 19, 37, 17)",Heart Rate,0,0,0,0,0,67
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 14, 19, 37, 19)",Heart Rate,0,0,0,0,0,99
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 4, 19, 37, 21)",Heart Rate,0,0,0,0,0,78
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 23, 19, 37, 23)",Heart Rate,0,0,0,0,0,68
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 11, 19, 37, 25)",Heart Rate,0,0,0,0,0,61
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 16, 19, 37, 27)",Heart Rate,0,0,0,0,0,71
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 6, 19, 37, 29)",Heart Rate,0,0,0,0,0,80
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 28, 19, 37, 31)",Heart Rate,0,0,0,0,0,78
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 11, 19, 37, 33)",Heart Rate,0,0,0,0,0,100
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 4, 19, 37, 35)",Heart Rate,0,0,0,0,0,66
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 4, 19, 37, 37)",Heart Rate,0,0,0,0,0,67
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 27, 19, 37, 39)",Heart Rate,0,0,0,0,0,92
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 10, 19, 37, 41)",Heart Rate,0,0,0,0,0,91
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 21, 19, 37, 43)",Heart Rate,0,0,0,0,0,79
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 23, 19, 37, 45)",Heart Rate,0,0,0,0,0,99
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 37, 47)",Heart Rate,0,0,0,0,0,66
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 9, 19, 37, 49)",Heart Rate,0,0,0,0,0,92
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 25, 19, 37, 51)",Heart Rate,0,0,0,0,0,99
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 4, 19, 45, 53)",Wellness,0,0,194,138,37,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 4, 19, 45, 55)",Wellness,0,0,156,46,19,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 14, 19, 45, 58)",Wellness,0,0,155,98,41,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 8, 19, 46)",Wellness,0,0,173,70,23,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 27, 19, 46, 2)",Wellness,0,0,158,137,55,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 15, 19, 46, 4)",Wellness,0,0,181,133,41,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 23, 19, 46, 6)",Wellness,0,0,180,56,17,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 5, 19, 46, 8)",Wellness,0,0,153,103,44,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 10, 19, 46, 10)",Wellness,0,0,181,124,38,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 7, 19, 46, 12)",Wellness,0,0,196,102,27,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 19, 19, 46, 14)",Wellness,0,0,152,85,37,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 28, 19, 46, 16)",Wellness,0,0,191,119,33,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 26, 19, 46, 18)",Wellness,0,0,154,138,58,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 4, 19, 46, 20)",Wellness,0,0,158,83,33,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 13, 19, 46, 22)",Wellness,0,0,166,68,25,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 5, 2, 19, 46, 24)",Wellness,0,0,154,139,59,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 25, 19, 46, 26)",Wellness,0,0,196,47,12,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 3, 7, 19, 46, 28)",Wellness,0,0,158,116,46,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 21, 19, 46, 30)",Wellness,0,0,173,107,36,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 10, 19, 46, 32)",Wellness,0,0,187,128,37,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 5, 7, 19, 46, 34)",Wellness,0,0,157,104,42,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 23, 19, 46, 36)",Wellness,0,0,189,47,13,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 4, 20, 19, 46, 38)",Wellness,0,0,192,137,37,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 2, 6, 19, 46, 40)",Wellness,0,0,194,58,15,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 29, 19, 46, 42)",Wellness,0,0,155,126,52,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 8)",Wellness,0,0,157,94,38,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 10)",Wellness,0,0,195,126,33,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 12)",Wellness,0,0,168,48,17,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 14)",Wellness,0,0,166,70,25,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 16)",Wellness,0,0,152,90,39,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 18)",Wellness,0,0,199,125,32,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 20)",Wellness,0,0,173,59,20,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 22)",Wellness,0,0,181,109,33,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 24)",Wellness,0,0,161,74,29,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 26)",Wellness,0,0,172,133,45,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 28)",Wellness,0,0,173,111,37,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 30)",Wellness,0,0,184,89,26,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 32)",Wellness,0,0,178,128,40,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 34)",Wellness,0,0,176,62,20,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 36)",Wellness,0,0,154,71,30,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 38)",Wellness,0,0,165,54,20,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 40)",Wellness,0,0,176,118,38,0
+Emily,George,51710675312,"PyQt5.QtCore.QDateTime(2018, 1, 26, 19, 47, 42)",Wellness,0,0,172,52,18,0

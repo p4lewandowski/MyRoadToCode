@@ -1,12 +1,15 @@
 from SQL_Connector.ConfigFileParser import read_db_config
 from PyQt5.QtSql import QSqlDatabase
+import os
 
 class mysql_connector():
 
     def mysql_connection(self, username, password):
 
         # Full path needs to be specified
-        db_config = read_db_config('C:\\Users\\Virneal\\Documents\\IFE\\Bachelor_code\\Clean_Code\\SQL_Connector\\ConnectionConfig.ini', 'mysql')
+        config_file_path = os.path.normpath(os.path.join(os.path.dirname(os.path.realpath(__file__)), "..//SQL_Connector"))
+
+        db_config = read_db_config('{}//ConnectionConfig.ini'.format(str(config_file_path)), 'mysql')
         db_config['user'] = username
         db_config['password'] = password
 
