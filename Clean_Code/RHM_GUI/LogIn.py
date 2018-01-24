@@ -25,7 +25,7 @@ class LogInWindow(QWidget, mysql_connector):
         welcome_font.setBold(True)
 
         # Creating the labels and edits
-        welcome_label = QLabel('WELCOME \n\n Please provide your credentials to connect to the database.')
+        welcome_label = QLabel('WELCOME \n\n Please provide your credentials to connect to the database. \n\n')
         welcome_label.setAlignment(Qt.AlignCenter)
         welcome_label.setFont(welcome_font)
         username_label = QLabel('Username')

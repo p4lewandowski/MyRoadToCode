@@ -1,0 +1,103 @@
+Name,Surname,PESEL,Examination Date,Examination Name,Systolic Pressure,Diastolic Pressure,Body Height,Body Weight,BMI,Heart Rate
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 21, 19, 26, 13)",Heart Rate,0,0,0,0,0,72
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 8, 19, 26, 14)",Heart Rate,0,0,0,0,0,80
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 31, 19, 26, 15)",Heart Rate,0,0,0,0,0,100
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 1, 19, 26, 16)",BloodPressure,103,74,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 4, 19, 26, 18)",BloodPressure,118,62,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 12, 19, 26, 18)",BloodPressure,104,90,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 18, 19, 26, 18)",BloodPressure,114,68,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 13, 19, 26, 20)",Heart Rate,0,0,0,0,0,94
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 18, 19, 26, 20)",BloodPressure,115,87,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 2, 19, 26, 21)",BloodPressure,118,62,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 27, 19, 26, 25)",Wellness,0,0,194,106,28,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 8, 19, 26, 29)",Wellness,0,0,188,140,40,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 28, 19, 26, 30)",BloodPressure,135,82,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 18, 19, 26, 31)",BloodPressure,123,88,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 31, 19, 26, 31)",Wellness,0,0,175,72,24,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 12, 19, 26, 32)",Heart Rate,0,0,0,0,0,77
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 11, 19, 26, 35)",Heart Rate,0,0,0,0,0,86
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 28, 19, 26, 36)",Heart Rate,0,0,0,0,0,80
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 21, 19, 26, 36)",Heart Rate,0,0,0,0,0,78
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 5, 7, 19, 26, 43)",BloodPressure,101,64,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 4, 19, 26, 44)",Wellness,0,0,157,128,52,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 27, 19, 26, 44)",Heart Rate,0,0,0,0,0,67
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 5, 6, 19, 26, 49)",BloodPressure,139,92,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 28, 19, 26, 53)",Wellness,0,0,173,84,28,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 19, 19, 26, 54)",Wellness,0,0,198,52,13,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 26, 19, 26, 56)",Wellness,0,0,197,62,16,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 14, 19, 26, 58)",Wellness,0,0,178,103,33,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 25, 19, 27, 2)",Wellness,0,0,200,116,29,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 1, 19, 27, 2)",Wellness,0,0,192,99,27,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 4, 19, 27, 3)",BloodPressure,119,92,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 13, 19, 27, 3)",Heart Rate,0,0,0,0,0,76
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 16, 19, 27, 11)",BloodPressure,121,83,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 26, 19, 27, 14)",BloodPressure,106,87,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 9, 19, 27, 15)",Heart Rate,0,0,0,0,0,99
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 10, 19, 27, 20)",BloodPressure,131,94,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 8, 19, 27, 24)",Wellness,0,0,190,77,21,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 5, 2, 19, 27, 31)",BloodPressure,114,97,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 20, 19, 27, 31)",Wellness,0,0,199,97,24,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 22, 19, 27, 40)",Wellness,0,0,187,139,40,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 7, 19, 27, 40)",Wellness,0,0,150,80,36,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 19, 19, 27, 44)",BloodPressure,104,91,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 3, 19, 27, 46)",Heart Rate,0,0,0,0,0,87
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 26, 19, 27, 47)",BloodPressure,110,93,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 27, 48)",Wellness,0,0,165,116,43,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 21, 19, 27, 54)",BloodPressure,103,84,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 14, 19, 27, 58)",Wellness,0,0,177,135,43,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 26, 19, 29, 53)",Wellness,0,0,196,121,31,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 19, 19, 30)",BloodPressure,112,79,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 9, 19, 30, 2)",Wellness,0,0,155,108,45,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 6, 19, 30, 3)",Wellness,0,0,160,81,32,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 29, 19, 30, 5)",Heart Rate,0,0,0,0,0,77
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 11, 19, 30, 7)",BloodPressure,106,98,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 28, 19, 30, 7)",BloodPressure,128,68,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 30, 19, 30, 7)",Wellness,0,0,200,133,33,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 28, 19, 30, 9)",Wellness,0,0,184,111,33,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 5, 7, 19, 30, 13)",BloodPressure,138,68,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 17, 19, 30, 13)",Wellness,0,0,171,138,47,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 4, 15, 19, 30, 14)",BloodPressure,122,76,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 3, 14, 19, 30, 17)",BloodPressure,130,92,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 23, 19, 30, 20)",Heart Rate,0,0,0,0,0,78
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 4, 19, 30, 26)",Heart Rate,0,0,0,0,0,87
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 9, 51)",BloodPressure,134,95,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 9, 57)",Heart Rate,0,0,0,0,0,89
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 9, 58)",BloodPressure,109,75,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 9, 58)",Wellness,0,0,153,134,57,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 9, 59)",BloodPressure,131,69,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 10, 5)",BloodPressure,138,61,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 10, 12)",Wellness,0,0,177,62,20,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 22, 9)",Wellness,0,0,176,90,29,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 22, 12)",BloodPressure,112,90,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 22, 14)",Heart Rate,0,0,0,0,0,63
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 22, 14)",Wellness,0,0,185,78,23,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 22, 15)",BloodPressure,127,94,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 22, 16)",Wellness,0,0,178,116,37,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 22, 17)",Wellness,0,0,163,100,38,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 22, 19)",Heart Rate,0,0,0,0,0,78
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 1, 26, 20, 22, 20)",Heart Rate,0,0,0,0,0,77
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 23)",Heart Rate,0,0,0,0,0,98
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 25)",Heart Rate,0,0,0,0,0,86
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 25)",BloodPressure,131,100,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 26)",Wellness,0,0,174,98,32,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 30)",BloodPressure,106,66,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 32)",Wellness,0,0,178,58,18,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 33)",Wellness,0,0,188,55,16,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 33)",Wellness,0,0,199,78,20,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 37)",Heart Rate,0,0,0,0,0,73
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 39)",BloodPressure,120,85,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 42)",Wellness,0,0,184,121,36,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 44)",Wellness,0,0,197,136,35,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 45)",Wellness,0,0,150,54,24,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 47)",BloodPressure,107,63,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 49)",Heart Rate,0,0,0,0,0,62
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 51)",Heart Rate,0,0,0,0,0,81
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 53)",Wellness,0,0,153,85,36,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 55)",Heart Rate,0,0,0,0,0,73
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 50, 59)",Heart Rate,0,0,0,0,0,71
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 51, 1)",Heart Rate,0,0,0,0,0,81
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 51, 3)",BloodPressure,102,63,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 51, 3)",BloodPressure,138,99,0,0,0,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 51, 4)",Wellness,0,0,155,57,24,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 51, 5)",Wellness,0,0,179,107,33,0
+Brenda,Ray,62936407485,"PyQt5.QtCore.QDateTime(2018, 2, 3, 19, 51, 9)",Heart Rate,0,0,0,0,0,88
